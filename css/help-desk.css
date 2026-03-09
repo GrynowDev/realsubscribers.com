@@ -1,0 +1,129 @@
+.help-desk {
+    color: blue;
+    animation: fadein 2s;
+    background: transparent !important;
+}
+span {
+    color: #dc3545 !important;
+}
+
+.help-desk {
+    background-image: linear-gradient(45deg, #0a0c19, #1a1b35);
+}
+
+h1 {
+    color: #133852;
+}
+.faq-section {
+    height: auto;
+    padding-bottom: 30px;
+    width: 100%;
+}
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 8%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+strong {
+    color: #00ac0b;
+    font-weight: inherit;
+}
+.accordion .card-header:after {
+    content: unset !important;
+}
+.card-header button {
+    color: #164b79;
+    text-align: left;
+}
+.card-header h4 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 27px;
+}
+.card {
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+    min-height: 103px;
+    text-align: left;
+}
+.common-cta-btn .btn-info {
+    border-color: none !important;
+}
+
+@media (max-width: 320px) {
+    .card {
+        width: 100%;
+        min-height: 108px !important;
+    }
+}   
+@media (max-width: 414px) {
+    .card {
+        width: 100%;
+        min-height: 118px !important;
+    }
+}
+@media (max-width: 568px) {
+    .card {
+        width: 100%;
+        min-height: 112px;
+    }
+}
+@media (max-width: 674px) {
+    .card {
+        width: 100%;
+        min-height: 112px !important;
+    }
+    .card-header {
+        border-bottom: none;
+    }
+}
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+        min-height: 150px;
+    }
+    .card-header {
+        border-bottom: none;
+    }
+}
+.card-body, .btn-link {
+    color: #757575;
+}
+.card-header {
+    background: none;
+}
+
+.accordion .card-header:after {
+    font-family: 'FontAwesome';  
+    content: "\f068";
+    float: right; 
+}
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f067"; 
+}
+
+@keyframes fadein {
+from {
+opacity: 0;
+}
+to {
+opacity: 1;
+}
+}

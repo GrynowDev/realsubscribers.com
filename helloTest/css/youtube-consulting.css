@@ -1,0 +1,266 @@
+html {
+    overflow-x: hidden !important;
+}
+body {
+    overflow: hidden !important;
+}
+h1, h2, h3 {
+    color: #3a3a3a;
+    font-size: 30px;
+    font-weight: 600;
+}
+p {
+    color: #565656;
+    font-size: 17px;
+    line-height: 29px;
+    text-align: justify;
+}
+li {
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: #565656;
+    line-height: 29px;
+}
+
+/* youtube consulting main page */
+.btn-danger {
+    background-color: #bd2130;
+    border-color: #bd2130;
+}
+main h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    /* margin-top: 100px; */
+}
+main p {
+    line-height: 29px;
+    text-align: center;
+}
+.yc-grid {
+    text-align: center;
+}
+
+.yc-grid a {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 29px;
+    margin-top: 10px;
+    color: #0d35c7;
+    display: inline-block;
+}
+.yc-banner {
+    margin-top: 88px;
+}
+
+.how-our-youtube p {
+    color: #133852;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 27px;
+}
+.how-our-youtube h2 {
+    font-weight: 600;
+}
+
+.our-youtube-growth h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+.our-youtube-growth h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .yc-banner {
+        margin-top: 54px;
+    }
+    main h1 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .how-our-youtube h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .our-youtube-growth h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .our-youtube-growth h3 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .yc-grid a {
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 376px) and (max-width: 414px) {
+    .yc-banner {
+        margin-top: 63px;
+    }
+    .yc-grid a {
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 415px) and (max-width: 568px) {
+    .yc-banner {
+        margin-top: 79px;
+    }
+    .yc-grid a {
+        margin-bottom: 20px;
+    }
+}
+/* //youtube consulting main page */
+
+/* 1. youtube e-books */
+
+/* // 2. youtube e-books */
+
+
+/* 2. video-editing-services */
+
+/* .video-editing-services h1 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+@media (min-width: 320px) and (max-width: 375px) {
+    .video-editing-services h1 {
+        margin-top: 58px;
+        margin-bottom: 15px;
+    }
+}
+@media (min-width: 376px) and (max-width: 414px) {
+    .video-editing-services h1 {
+        margin-top: 65px;
+        margin-bottom: 15px;
+    }
+}
+@media (min-width: 414px) and (max-width: 568px) {
+    .video-editing-services h1 {
+        margin-top: 65px;
+        margin-bottom: 15px;
+    }
+} */
+/* 2. //video-editing-services */
+
+/* 3. youtube channel tech audit*/
+.yt-channel-tech-audit h1 {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+@media (min-width: 320px) and (max-width: 375px) {
+    .yt-channel-tech-audit h1 {
+        margin-top: 58px;
+    }
+}
+@media (min-width: 376px) and (max-width: 414px) {
+    .yt-channel-tech-audit h1 {
+        margin-top: 65px;
+    }
+}
+@media (min-width: 415px) and (max-width: 568px) {
+    .yt-channel-tech-audit h1 {
+        margin-top: 65px;
+    }
+}
+/* 3. youtube channel tech audit*/
+
+/* 4. youtube video seo services */
+.yt-video-seo-services h1 {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+@media (min-width: 320px) and (max-width: 375px) {
+    .yt-video-seo-services h1 {
+        margin-top: 58px;
+        margin-bottom: 5px;
+    }
+}
+@media (min-width: 376px) and (max-width: 414px) {
+    .yt-video-seo-services h1 {
+        margin-top: 65px;
+        margin-bottom: 10px;
+    }
+}
+@media (min-width: 415px) and (max-width: 568px) {
+    .yt-video-seo-services h1 {
+        margin-top: 65px;
+        margin-bottom: 5px;
+    }
+}
+/* 4. //youtube video seo services */
+
+/* All 4 inner pages heading css */
+@media (min-width: 320px) and (max-width: 375px) {
+    h1 {
+        font-size: 20px !important;
+        line-height: 28px !important;
+        font-weight: 600 !important;
+    }
+    h2 {
+        font-size: 20px !important;
+        line-height: 28px !important;
+        font-weight: 600 !important;
+    }
+}
+@media (min-width: 376px) and (max-width: 414px) {
+    h1 {
+        font-size: 22px !important;
+        line-height: 29px !important;
+        font-weight: 600 !important;
+    }
+    h2 {
+        font-size: 22px !important;
+        line-height: 29px !important;
+        font-weight: 600 !important;
+    }
+}
+@media (min-width: 415px) and (max-width: 568px) {
+    h1 {
+        font-size: 22px !important;
+        line-height: 29px !important;
+        font-weight: 600 !important;
+    }
+    h2 {
+        font-size: 23px !important;
+        line-height: 29px !important;
+        font-weight: 600 !important;
+    }
+}
+/* //all 4 inner pages heading css */
+
+
+@media (max-width: 768px) {
+    .container-fluid {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    ul {
+        padding-inline-start: inherit;
+    }
+}
+
+p > strong {
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

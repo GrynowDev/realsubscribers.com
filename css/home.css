@@ -1,0 +1,1510 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden !important;
+  scroll-behavior: smooth;
+}
+
+.navbar-light {
+  background-color: #133852;
+  transition: 500ms ease;
+  padding: 1vw 1vw;
+}
+.navbar-light .navbar-nav .nav-link {
+  font-size: 1vw;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+.navbar-brand img {
+  width: 11vw;
+}
+.navbar-light .btn-danger {
+  border-radius: 100px;
+  padding: 0.4vw 2vw 2vw 2vw;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.9vw;
+}
+.dropdown {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1vw;
+  padding: 0.5vw 0.7vw;
+  color: #fff;
+}
+.dropdown .dropdown-toggle:hover {
+  text-decoration: none;
+}
+.dropdown .dropdown-toggle {
+  color: #fff;
+}
+.dropdown .dropdown-menu {
+  background-color: #133852;
+  box-shadow: 8px 2px 30px 0px rgba(46,61,73,0.15);
+  margin-top: 0.8vw;
+  border: none;
+  padding: 0;
+}
+.b-bottom {
+  border-bottom: none !important;
+}
+.dropdown .dropdown-item {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.9vw;
+  color: #fff;
+  padding: 0.8vw 0.8vw 0.8vw 1vw;
+  border-bottom: 1px solid #246899 !important;
+}
+.dropdown .dropdown-item:hover {
+  background-color: inherit;
+  display: block;
+}
+
+.jumbotron {
+  background: url("../assets/home/rs-christmas-banner.webp") no-repeat;
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  margin-bottom: inherit;
+}
+.jumbotron h1 {
+  color: #fff;
+  position: absolute;
+  top: 3vw;
+  line-height: 3vw;
+  font-size: 3vw;
+  left: 3vw;
+  max-width: 63%;
+}
+.jumbotron p {
+  color: #444;
+  padding: 0.7vw 2vw 1vw 1vw;
+  border-radius: 7px;
+  font-size: 1vw;
+  font-weight: 700;
+  background-color: #fff;
+  position: absolute;
+  top: 8vw;
+  left: 3vw;
+  max-width: 64%;
+} 
+.jumbotron main {
+  display: inline-block;
+  position: absolute;
+  top: 19vw;
+  left: 3vw;
+  font-weight: 600;
+  color: #fff;
+  font-size: 1.3vw;
+  text-decoration: underline;
+}
+.jumbotron .banner-para {
+  position: absolute;
+  top: 15vw;
+  line-height: 2vw;
+  background-color: inherit;
+  font-weight: 400;
+  color: #fff;
+  left: 2.2vw;
+  font-size: 1.13vw;
+  max-width: 64%;
+}
+.jumbotron .banner-points {
+  position: absolute;
+  top: 23vw;
+}
+.jumbotron .banner-points li {
+  list-style: none;
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 1.06vw;
+}
+.jumbotron .banner-points li::before {
+  font-family: 'FontAwesome';
+    content: '\f0da';
+    font-weight: 600;
+    color: #f7c227;
+    margin-right: 10px;
+    font-size: 20px;
+}
+ 
+.jumbotron .banner-form {
+  padding: 30px 20px;
+  border-radius: 5px;
+  position: absolute;
+  width: 91vw;
+  right: 2vw;
+  text-align: center;
+}
+.jumbotron .banner-form span {
+  display: inline-block;
+  font-weight: 600;
+  color: #133852;
+  font-size: 20px;
+  padding-bottom: 15px;
+  text-transform: capitalize;
+}
+.jumbotron .btn-info {
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: capitalize;
+  padding: 8px 22px 11px 22px;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+/* subscribers card */
+.subscribers-card {
+  padding: 2.4vw 0vw 3vw 0vw;
+}
+.subscribers-card h2 {
+  margin-bottom: 3vw;
+  font-weight: 600;
+  color: #444;
+  font-size: 2.2vw;
+}
+.subscribers-card .card {
+  background-color: #fff;
+  box-shadow: 2px 2px 24px 0px rgba(46,61,73,0.20);
+  border: 1px solid #133852;
+  border-radius: 5px;
+  margin-bottom: 2vw;
+}
+.subscribers-card .card-body {
+  padding: 0.8vw 0.8vw 0.8vw 0.8vw;
+}
+.subscribers-card .card-title {
+  font-weight: 600;
+  font-size: 1.4vw;
+  color: #dc3545;
+  line-height: 2.1vw;
+  text-align: center;
+  margin-bottom: 0.4vw;
+}
+.subscribers-card .list-group-flush {
+  text-align: center;
+}
+.subscribers-card .list-group-flush .list-group-item {
+  border-bottom: inherit;
+  padding: 1.1vw 0vw;
+  font-size: 1vw;
+  font-weight: 500;
+  color: #616161;
+}
+.subscribers-card .list-group-flush .list-group-item span {
+  display: inline-block;
+  font-size: 2vw;
+  padding-left: 0.4vw;
+  color: #133852;
+}
+.list-group-bg-color {
+  background-color: #f5f5f5;
+}
+.line-through {
+  text-decoration: line-through;
+}
+.subscribers-card .btn-info {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  padding: 0.4vw 2vw 0.6vw 2vw;
+  border-radius: 100px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: capitalize;
+}
+.subscribers-card .btn-info:hover {
+  color: #f1f2f1;
+}
+/* //subscribers card */
+
+/* benefits buying */
+.benefits-buying {
+  padding: 3vw 0vw 4vw 0vw;
+}
+.benefits-buying h2 {
+  font-size: 2.2vw;
+  color: #444;
+  font-weight: 600;
+  margin-bottom: 4vw;
+}
+.benefits-buying .benefits-buying-box {
+  text-align: center;
+  margin-bottom: 5vw;
+}
+.benefits-buying .benefits-buying-box p {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.167vw;
+}
+.benefits-buying .benefits-buying-box img {
+  margin-bottom: 1vw;
+  box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);
+}
+.benefits-buying .benefits-buying-content h3 {
+  font-size: 1.8vw;
+  padding: 1vw 0vw;
+  color: #444;
+  text-align: center;
+}
+.benefits-buying .benefits-buying-content p {
+  font-size: 1.10vw;
+  text-align: justify;
+  color: #525252;
+}
+.benefits-buying .btn-primary {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  padding: 0.7vw 2vw 0.96vw 2vw;
+  border-radius: 100px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-top: 2vw;
+}
+/* //benefits buying */
+
+/* Buy YouTube Subscribers  */
+.buy-yt-subs {
+  padding: 1vw 0vw 2vw 0vw;
+}
+.buy-yt-subs h2 {
+  font-size: 2.2vw;
+  color: #444;
+  line-height: 3.3vw;
+  font-weight: 600;
+  max-width: 60%;
+  margin: 0 auto;
+  margin-bottom: 2vw;
+}
+.buy-yt-subs p {
+  color: rgb(85, 85, 85);
+  font-size: 1.10vw;
+  text-align: justify;
+}
+.buy-yt-subs .btn-default {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  padding: 0.7vw 2vw 0.96vw 2vw;
+  border-radius: 100px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-top: 2vw;
+  color: #fff;
+}
+/* //Buy YouTube Subscribers  */
+
+/* Buy high quality  */
+.buy-high-quality {
+  padding: 2.4vw 0vw;
+  /* background-color: #f5f5f5; */
+}
+.buy-high-quality h2 {
+  font-size: 2.2vw;
+  color: #444;
+  line-height: 3.3vw;
+  font-weight: 600;
+  max-width: 70%;
+  margin: 0 auto;
+  margin-bottom: 2vw;
+}
+.buy-high-quality p {
+  color: rgb(85, 85, 85);
+  font-size: 1.10vw;
+  text-align: justify;
+}
+/* //Buy high quality  */
+
+/* get youtube subs  */
+.get-yt-subs {
+  padding: 2.4vw 0vw;
+}
+.get-yt-subs h2 {
+  font-size: 2.2vw;
+  color: #444;
+  line-height: 3.3vw;
+  font-weight: 600;
+  margin: 0 auto;
+  margin-bottom: 2vw;
+}
+.get-yt-subs p {
+  color: rgb(85, 85, 85);
+  font-size: 1.10vw;
+  text-align: justify;
+}
+/* //get youtube subs  */
+
+/* at best price  */
+.at-best-price {
+  padding: 2.4vw 0vw;
+  /* background-color: #f5f5f5; */
+}
+.at-best-price h2 {
+  font-size: 2.2vw;
+  color: #444;
+  line-height: 3.3vw;
+  font-weight: 600;
+  margin: 0 auto;
+  margin-bottom: 1vw;
+}
+.at-best-price p {
+  color: rgb(85, 85, 85);
+  font-size: 1.10vw;
+  text-align: justify;
+}
+/* //at best price  */
+
+
+
+/* we increase */
+.we-increase {
+  padding: 3vw 0vw 4vw 0vw;
+  background-color: #fff;
+}
+.we-increase h2 {
+  font-size: 2.2vw;
+  color: #444;
+  font-weight: 600;
+  margin-bottom: 4vw;
+  max-width: 80%;
+  margin: 0 auto;
+  line-height: 3.4vw;
+}
+.we-increase .we-increase-points {
+  margin: 4vw 0vw;
+}
+.we-increase .we-increase-points ul li {
+  font-size: 1.4vw;
+  margin-bottom: 1vw;
+  list-style: none;
+}
+.we-increase .we-increase-points ul li::before {
+  content: '\f00c';
+  font-family: 'FontAwesome';
+  color: #dc3545;
+  margin-right: 0.7vw;
+  font-size: 1.3vw;
+}
+/* //we increase */
+
+.simple-steps {
+  padding: 40px 0px 50px 0px;
+}
+.simple-steps h2 {
+  text-align: center;
+  font-size: 2.2vw;
+  font-weight: 600;
+  color: #444;
+}
+.simple-steps p strong {
+  color: #494949;
+  font-weight: 600;
+  font-size: 1.5vw;
+}
+.simple-steps .simple-steps-content {
+  margin: 4vw 0vw 4vw 3vw;
+  text-align: justify;
+}
+.simple-steps .simple-steps-content h3 {
+  font-size: 1.5vw;
+  margin-bottom: 1vw;
+  color: #444;
+}
+.simple-steps .simple-steps-content p {
+  color: #494949;
+  line-height: 27px;
+  font-size: 1.07vw;
+}
+.simple-steps .simple-steps-content-2 {
+  margin: 3vw 0vw 4vw 1vw;
+  text-align: justify;
+}
+.simple-steps .simple-steps-content-2 h3 {
+  font-size: 1.5vw;
+  margin-bottom: 1vw;
+}
+.simple-steps .simple-steps-content-2 p {
+  color: #494949;
+  font-size: 1.07vw;
+  line-height: 27px;
+}
+.simple-steps .simple-steps-content-3 {
+  margin: 6vw 0vw 4vw 3vw;
+  text-align: justify;
+}
+.simple-steps .simple-steps-content-3 h3 {
+  font-size: 1.5vw;
+  margin-bottom: 1vw;
+}
+.simple-steps .simple-steps-content-3 p {
+  color: #494949;
+  font-size: 1.07vw;
+  line-height: 27px;
+}
+.simple-steps .btn-info {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  padding: 0.7vw 2vw 0.96vw 2vw;
+  border-radius: 100px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+/* red cta */
+.red-cta {
+  background-color: #dc3545;
+  padding: 3vw 0vw 4vw 0vw;
+  text-align: center;
+}
+.red-cta span {
+  display: inline-block;
+  font-size: 2vw;
+  color: #fff;
+  margin-bottom: 1vw;
+  font-weight: 600;
+}
+.red-cta p {
+  font-weight: 400;
+  font-size: 1.2vw;
+  color: #fff;
+  max-width: 85%;
+  line-height: 2vw;
+  margin: 0 auto;
+}
+.red-cta img {
+  margin-bottom: 1.4vw;
+}
+/* //red cta */
+
+/* main points */
+.main-points {
+  padding: 3vw 0vw 4vw 0vw;
+  background-color: #fff;
+}
+.main-points h2 {
+  font-size: 2.2vw;
+  color: #444;
+  font-weight: 600;
+  margin-bottom: 3.4vw;
+  line-height: 3.4vw;
+}
+.main-points .main-points-box {
+  box-shadow: 1px 0px 33px 1px rgba(46,61,73,0.1);
+  padding: 1.4vw 1vw;
+  border-radius: 10px;
+  text-align: center;
+  min-height: 9vw;
+  margin-bottom: 2.1vw;
+}
+.main-points .main-points-box img {
+  margin-bottom: 1vw;
+}
+.main-points .main-points-box p {
+  font-weight: 600;
+  color: #444;
+  max-width: 90%;
+  margin: 0 auto;
+}
+/* //main points */
+
+/* free option */
+.free-option {
+  background-color: #f5f5f5;
+  padding: 3vw 0vw 4vw 0vw;
+  text-align: center;
+}
+.free-option span {
+  display: inline-block;
+  font-size: 2vw;
+  color: #444;
+  margin-bottom: 1vw;
+  font-weight: 600;
+}
+.free-option p {
+  font-weight: 400;
+  font-size: 1.2vw;
+  color: rgb(80, 80, 80);
+  max-width: 85%;
+  line-height: 2vw;
+  margin: 0 auto;
+}
+.free-option img {
+  margin-bottom: 1.4vw;
+}
+.free-option .btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  padding: 0.7vw 2vw 0.96vw 2vw;
+  border-radius: 100px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-top: 2.5vw;
+}
+/* //free option */
+
+
+/* what makes us */
+.what-makes-us {
+  padding: 0.5vw 0vw 3vw 0vw;
+  background-color: #fff;
+  background-size: cover;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+}
+.what-makes-us p {
+  color: #fff;
+}
+.what-makes-us h2 {
+  color: #444;
+  font-size: 1.9vw;
+  max-width: 60%;
+  line-height: 3vw;
+  margin: 0 auto;
+  margin-bottom: 1vw;
+}
+.what-makes-us h3 {
+  font-size: 1.4vw;
+  color: #494949;
+}
+.what-makes-us p {
+  color: rgb(107 107 107);
+  font-weight: 400;
+  font-size: 1.06vw;
+  text-align: justify;
+}
+.what-makes-us .btn-primary {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  padding: 0.7vw 2vw 0.96vw 2vw;
+  border-radius: 100px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-top: 2.5vw;
+}
+.what-makes-us img {
+  box-shadow: 1px 2px 27px 9px rgba(46,61,73,0.1);
+}
+/* //what makes us */
+
+/* home faq */
+.home-faq {
+  padding: 3vw 0vw;
+  /* background-color: #f5f5f5; */
+}
+.home-faq h2 {
+  text-align: center;
+  font-size: 2.2vw;
+  color: #444;
+}
+.home-faq h3 {
+  font-size: 1.6vw;
+  padding-bottom: 1vw;
+  color: rgb(78, 78, 78);
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff !important;
+  background-color: #d0d0d0;
+}
+.home-faq .nav-link h4 {
+  font-weight: 600;
+  color: #133852;
+  font-size: 1vw;
+}
+.home-faq p {
+  font-size: 1.06vw;
+  line-height: 1.9vw;
+  color: #494949;
+}
+.home-faq .tab-pane ul {
+  padding-inline-start: initial;
+  margin-top: 1.5vw;
+}
+.home-faq .tab-pane ul li {
+  list-style: none;
+  font-size: 1.06vw;
+  margin-bottom: 0.7vw;
+  color: #494949;
+}
+.home-faq .tab-pane ul li::before {
+  content: '\f00c';
+  font-family: 'FontAwesome';
+  font-size: 1vw;
+  margin-right: 0.5vw;
+}
+.home-faq .last-content p {
+  margin: 0;
+  padding: 0;
+  font-size: 1.06vw;
+}
+/* //home faq */
+
+/* home more faq */
+.home-more-faq {
+  background-color: #fff;
+  padding: 0vw 0vw 2vw 0vw;
+}
+.home-more-faq h2 {
+  color: #444;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 1vw;
+  font-size: 2.1vw;
+}
+.home-more-faq .card {
+  background-color: #fff;
+  box-shadow: 6px 6px 20px 2px rgba(46, 61, 73, 0.15);
+  border-radius: 7px;
+  border: inherit;
+  padding-bottom: 0.3vw;
+  margin-bottom: 2.5vw;
+  min-height: 8vw;
+}
+.home-more-faq .card-header {
+  background-color: #fff;
+  border: none;
+  padding: 1vw 0.5vw 1.2vw 0.5vw;
+}
+.home-more-faq .btn-link {
+  color: #494949;
+  font-weight: 600;
+  font-size: 1vw;
+}
+.home-more-faq .fa-plus,
+.fa-minus {
+  color: #133852;
+  font-weight: 600;
+  margin-right: 1vw;
+}
+.home-more-faq p {
+  color: #636363;
+  padding-left: 1vw;
+  font-size: 1.05vw;
+}
+.home-more-faq .btn-info {
+  background-color: #dc3545;
+  border-color: inherit;
+  padding: 0.6vw 2vw 0.8vw 2vw;
+  border-radius: 100px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.home-more-faq .last-text p {
+  font-size: 1.8vw;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-bottom: 2.2vw;
+  color: #133852;
+  font-weight: 600;
+}
+.home-more-faq .last-text p span {
+  color: #c9216f;
+}
+
+/* //home more faq */
+
+/* toastr styles */
+.toast {
+  opacity: 1 !important;
+}
+.toast-info { background-color: rgba(4, 192, 176, 0.842) !important; }
+.toast-success { background-color: rgba(19, 180, 67, 0.842) !important; }
+.toast-error { background-color: rgba(255, 22, 5, 0.863) !important; }
+
+
+@media only screen and (max-width: 480px) {
+  .navbar-brand img {
+    width: 160px;
+  }
+  .navbar-light .fa-bars {
+    color: #fff;
+  }
+
+  .navbar-light .btn-danger {
+    margin: 0vw 5vw !important;
+    padding: 1.4vw 0vw 2vw 0vw;
+    font-size: 3vw;
+  }
+  .navbar-light .navbar-nav {
+    margin-left: 24px !important;
+    margin-bottom: 5vw;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 3vw;
+    padding: 1.5vw 0vw;
+  }
+  .dropdown {
+    font-size: 3vw;
+    margin-bottom: 1.5vw;
+    margin-top: 0.5vw;
+    padding: 0.5vw 0vw;
+    /* background-color: rgb(255, 255, 255); */
+  }
+  .dropdown .dropdown-item {
+    padding: 2.8vw 0.8vw 2.8vw 2vw;
+    font-size: 2.9vw;
+  }
+  .jumbotron {
+    background: url("../assets/home/rs-chrismas-480.webp") no-repeat;
+    height: 1520px;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+  }
+  .jumbotron .all-margin {
+    margin: 3vw 3vw;
+  }
+  .jumbotron h1 {
+    font-size: 8vw;
+    line-height: 10vw;
+    color: #fff;
+    position: absolute;
+    top: 14vw;
+    left: 5vw;
+    right: 2vw;
+    max-width: 100%;
+  }
+  .jumbotron main {
+    top: 76vw;
+    font-size: 5vw;
+    left: 7vw;
+  }
+  .jumbotron .banner-points {
+    color: #fff;
+    padding-inline-start: inherit;
+    position: absolute;
+    top: 89vw;
+  }
+
+  .jumbotron .banner-points li {
+    margin-bottom: 3px;
+    font-size: 4.5vw;
+    list-style: none;
+  }
+
+  .jumbotron p {
+    color: #133852;
+    padding: 1vw 3vw;
+    border-radius: 7px;
+    max-width: 100%;
+    font-size: 4.2vw;
+    font-weight: 600;
+    background-color: #fff;
+    position: absolute;
+    top: 28vw;
+    left: 5vw;
+    right: 5vw;
+    padding: 2vw 2vw;
+  }
+  .jumbotron .banner-para {
+    top: 59vw;
+    line-height: 6.5vw;
+    left: 4vw;
+    font-size: 4.2vw;
+    max-width: 100%;
+  }
+  .jumbotron .banner-form {
+    padding: 30px 20px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 6vw;
+    left: 5vw;
+    width: 91vw;
+    right: 0;
+  }
+  .navbar-light .navbar-nav{
+    margin-left: 24px !important;
+  }
+  .subscribers-card {
+    padding: 8vw 0vw;
+  }
+  .subscribers-card h2 {
+    font-size: 6.2vw;
+    margin-bottom: 9vw;
+  }
+  .subscribers-card .btn-info {
+    padding: 1.5vw 6vw 2.4vw 6vw;
+    font-size: 4.1vw;
+  }
+  .subscribers-card .card-title {
+    font-size: 5vw;
+    line-height: 7vw;
+    margin-bottom: 3vw;
+  }
+  .subscribers-card .card {
+    margin-bottom: 6vw;
+  }
+  .subscribers-card .card-body {
+    padding: 3.8vw 0.8vw 1.8vw 0.8vw;
+  }
+  .subscribers-card .list-group-flush .list-group-item {
+    font-size: 3.9vw;
+    padding: 3.1vw 0vw;
+  }
+  .subscribers-card .list-group-flush .list-group-item span {
+    font-size: 6vw;
+  }
+  .benefits-buying {
+    padding: 9vw 0vw;
+  }
+  .benefits-buying h2 {
+    font-size: 6.2vw;
+    line-height: 9.3vw;
+    margin-bottom: 10vw;
+  }
+  .benefits-buying .benefits-buying-box p {
+    font-size: 4.8vw;
+    margin: 3vw 0vw;
+    margin-bottom: 10vw;
+  }
+  .benefits-buying .benefits-buying-content p {
+    font-size: 4vw;
+  }
+  .benefits-buying .benefits-buying-content h3 {
+    font-size: 5vw;
+  }
+  .benefits-buying .btn-primary {
+    padding: 1.3vw 6vw 2.5vw 6vw;
+    font-size: 4.3vw;
+  }
+  .buy-yt-subs {
+    padding: 8vw 0vw;
+  }
+  .buy-yt-subs h2 {
+    font-size: 5vw;
+    line-height: 8vw;
+    max-width: 100%;
+  }
+  .buy-yt-subs p {
+    font-size: 4vw;
+  }
+  .buy-yt-subs .btn-default {
+    padding: 1.3vw 6vw 2.5vw 6vw;
+    font-size: 4.3vw;
+  }
+  .buy-high-quality {
+    padding: 7vw 0vw;
+  }
+  .buy-high-quality h2 {
+    font-size: 4.8vw;
+    margin-bottom: 7vw;
+    line-height: 8vw;
+  }
+  .buy-high-quality p {
+    font-size: 4vw;
+  }
+  .get-yt-subs {
+    padding: 7vw 0vw;
+  }
+  .get-yt-subs h2 {
+    font-size: 4.8vw;
+    margin-bottom: 3vw;
+    line-height: 8vw;
+  }
+  .get-yt-subs p {
+    font-size: 4vw;
+  }
+  .at-best-price h2 {
+    font-size: 4.8vw;
+    margin-bottom: 3vw;
+    line-height: 8vw;
+  }
+  .at-best-price p {
+    font-size: 4vw;
+  }
+  .we-increase h2 {
+    font-size: 5vw;
+    max-width: 100%;
+    line-height: 6.7vw;
+  }
+  .we-increase .we-increase-points ul li {
+    font-size: 4vw;
+    margin-bottom: 2vw;
+  }
+  .we-increase .we-increase-points ul li::before {
+    font-size: 3.1vw;
+    margin-right: 1.8vw;
+  }
+
+  .simple-steps h2 {
+    font-size: 6.5vw;
+    line-height: 9vw;
+    max-width: 100%;
+  }
+  .simple-steps h3 {
+    font-size: 4.5vw;
+    max-width: 100%;
+    line-height: 7vw;
+  }
+  .simple-steps p strong {
+    font-size: 5vw;
+  }
+  .simple-steps .simple-steps-content h3 {
+    font-size: 5.2vw;
+    line-height: 8vw;
+  }
+  .simple-steps .simple-steps-content p {
+    font-size: 4.4vw;
+  }
+  .simple-steps .simple-steps-content-2 h3 {
+    font-size: 5.2vw;
+    line-height: 8vw;
+  }
+  .simple-steps .simple-steps-content-2 p {
+    font-size: 4.4vw;
+  }
+  .simple-steps .simple-steps-content-3 h3 {
+    font-size: 5.2vw;
+    line-height: 8vw;
+  }
+  .simple-steps .simple-steps-content-3 p {
+    font-size: 4.4vw;
+  }
+  .simple-steps .btn-info {
+    padding: 1.6vw 6vw 2.5vw 6vw;
+    font-size: 4.3vw;
+    margin-top: 7vw;
+  }
+  .red-cta {
+    padding: 6vw 0vw;
+  }
+  .red-cta span {
+    font-size: 4.9vw;
+  }
+  .red-cta p {
+    font-size: 3.5vw;
+    line-height: 5vw;
+    max-width: 100%;
+  }
+  .main-points {
+    padding: 7vw 0vw;
+  }
+  .main-points h2 {
+    font-size: 5.2vw;
+    line-height: 7.8vw;
+    margin-bottom: 10vw;
+  }
+  .main-points .main-points-box {
+    max-width: 65%;
+    padding: 6.4vw 1vw;
+    min-height: 37vw;
+    margin: 0 auto;
+    margin-bottom: 7.1vw !important;
+  }
+  .main-points .main-points-box p {
+    font-size: 4.2vw;
+  }
+  .main-points .main-points-box img {
+    margin-bottom: 3vw;
+  }
+  .free-option {
+    padding: 6vw 0vw;
+  }
+  .free-option span {
+    font-size: 5.6vw;
+    margin: 4vw 0vw;
+  }
+  .free-option p {
+    line-height: 6vw;
+    font-size: 4.4vw;
+    max-width: 100%;
+  }
+  .free-option .btn-danger {
+    padding: 1.6vw 6vw 2.5vw 6vw;
+    font-size: 4.3vw;
+    margin-top: 7vw;
+  }
+  .what-makes-us h2 {
+    font-size: 5.9vw;
+    max-width: 100%;
+    line-height: 9.1vw;
+  }
+  .what-makes-us h3 {
+    font-size: 5.3vw;
+    text-align: center;
+  }
+  .what-makes-us p {
+    font-size: 4.3vw;
+    text-align: justify;
+  }
+  .what-makes-us img {
+    margin-bottom: 6vw;
+    margin-top: 6vw;
+  }
+  .what-makes-us .btn-primary {
+    padding: 1.6vw 6vw 2.5vw 6vw;
+    font-size: 4.3vw;
+    margin-top: 4vw;
+  }
+  .home-faq {
+    padding: 8vw 0vw;
+  }
+  .home-faq h2 {
+    font-size: 6vw;
+    line-height: 9.6vw;
+    padding-bottom: 6vw;
+  }
+  .home-faq p {
+    font-size: 3.8vw;
+    line-height: 5.8vw;
+  }
+  .home-faq .tab-pane ul li {
+    font-size: 4.5vw;
+    display: flex;
+  }
+  .home-faq .tab-pane ul li::before {
+    font-size: 4vw;
+    margin-right: 2.4vw;
+  }
+  .home-faq .nav-link h4 {
+    font-size: 4.2vw;
+  }
+  .home-faq .tab-pane {
+    padding: 8vw 0vw 4vw 0vw;
+  }
+  .home-faq h3 {
+    line-height: 9vw;
+    font-size: 5.9vw;
+  }
+  .home-faq .last-content p strong {
+    font-size: 4vw;
+  }
+  .home-faq .last-content p {
+    font-size: 4vw;
+    margin-top: 2vw;
+  }
+  
+  .learn-how-we-grow h4 {
+    font-size: 6vw;
+    line-height: 9vw;
+  }
+  .learn-how-we-grow .learn-how-we-grow-card h2 {
+    font-size: 5.7vw;
+    line-height: 8.7vw;
+  }
+  .learn-how-we-grow .learn-how-we-grow-card {
+    margin: 2vw;
+    padding: 9vw 2vw;
+  }
+  .learn-how-we-grow .learn-how-we-grow-card ul li {
+    margin-bottom: 4vw;
+  }
+  .learn-how-we-grow .btn-danger {
+    padding: 1.5vw 6vw 2vw 6vw;
+  }
+  .what-makes-us {
+    padding: 7vw 0vw;
+  }
+  .home-more-faq {
+    padding: 9vw 0vw;
+  }
+  .home-more-faq h2 {
+    font-size: 6.1vw;
+    line-height: 10vw;
+  }
+  .home-more-faq .btn-link {
+    font-size: 4vw;
+    text-align: left;
+  }
+  .home-more-faq .fa-plus, .fa-minus {
+    margin-right: 3.2vw;
+  }
+  .home-more-faq .card-header {
+    padding: 2vw 1vw;
+  }
+  .home-more-faq p {
+    font-size: 4.1vw;
+  }
+  .home-more-faq .last-text p {
+    font-size: 5.8vw;
+    max-width: 100%;
+  }
+  .home-more-faq .btn-info {
+    padding: 2.6vw 7vw 3.1vw 7vw;
+    margin: 4vw 0vw;
+  }
+  
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .navbar-light .navbar-nav {
+    margin-left: 3vw !important;
+  }
+  .navbar-light .btn-danger {
+    margin: 2vw 0vw !important;
+  }
+  .navbar-brand img {
+    width: 17vw;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 1.6vw;
+    padding: 0.8vw 0vw;
+  }
+  .dropdown {
+    padding: 0;
+    font-size: 1.6vw;
+    margin-bottom: 1vw;
+    margin-top: 0.6vw;
+  }
+  .dropdown .dropdown-item {
+    padding: 1.8vw 0.8vw 1vw 1vw;
+    font-size: 1.5vw;
+  }
+  .navbar-light .btn-danger {
+    padding: 1vw 5vw;
+    margin: 0vw 2vw !important;
+    font-size: 1.7vw;
+  }
+  .navbar-light .fa-bars {
+    color: #fff !important;
+  }
+  .jumbotron {
+    background: url('../assets/home/rs-chrismas-1024.webp') no-repeat;
+    height: 1400px;
+  }
+  .jumbotron h1 {
+    top: 5.2vw;
+    line-height: 6vw;
+    font-size: 4vw;
+    margin-left: 0rem;
+    max-width: 100%;
+  }
+  .jumbotron .banner-para {
+    font-size: 2.3vw;
+    top: 28vw;
+    max-width: 100%;
+    line-height: 4vw;
+  }
+  .jumbotron main {
+    top: 39vw;
+    left: 4vw;
+    font-size: 2.3vw;
+  }
+  .jumbotron p {
+    top: 14vw;
+    margin-left: 0rem;
+    max-width: 100%;
+    font-size: 2vw;
+  }
+  .jumbotron .banner-points {
+    top: 45vw; 
+  }
+  .jumbotron .banner-points li {
+    font-size: 2.5vw;
+  }
+  .subscribers-card {
+    padding: 8vw 0vw;
+  }
+  .subscribers-card .btn-info {
+    font-size: 1vw;
+  }
+  .subscribers-card .card-title {
+    font-size: 1.7vw;
+    line-height: 2.7vw;
+  }
+  .subscribers-card .list-group-flush .list-group-item {
+    font-size: 1.1vw;
+  }
+  .subscribers-card .card-body {
+    padding: 1.8vw 0.8vw 0.8vw 0.8vw;
+  }
+  .benefits-buying h2 {
+    font-size: 4vw;
+    margin-bottom: 8vw;
+  }
+  .benefits-buying .benefits-buying-box p {
+    font-size: 2.3vw;
+  }
+  .benefits-buying .benefits-buying-content p {
+    font-size: 2.04vw;
+  }
+  .benefits-buying .benefits-buying-content h3 {
+    font-size: 3.7vw;
+  }
+  .benefits-buying .btn-primary {
+    padding: 1.7vw 6vw 2.1vw 6vw;
+    font-size: 2.6vw;
+  }
+  .buy-yt-subs h2 {
+    font-size: 3.2vw;
+    line-height: 5vw;
+  }
+  .buy-yt-subs p {
+    font-size: 2.04vw;
+  }
+  .buy-yt-subs .btn-default {
+    padding: 1.7vw 6vw 2.1vw 6vw;
+    font-size: 2.6vw;
+  }
+  .buy-high-quality h2 {
+    font-size: 3.2vw;
+    line-height: 5vw;
+  }
+  .buy-high-quality p {
+    font-size: 2.04vw;
+  }
+  .get-yt-subs h2 {
+    font-size: 4.2vw;
+    line-height: 5vw;
+  }
+  .get-yt-subs p {
+    font-size: 2.04vw;
+  }
+  .buy-high-quality p {
+    font-size: 2.04vw;
+  }
+  .at-best-price h2 {
+    font-size: 4.2vw;
+    line-height: 5vw;
+  }
+  .at-best-price p {
+    font-size: 2.04vw;
+  }
+  .we-increase h2 {
+    font-size: 4vw;
+    line-height: 6vw;
+    margin-bottom: 5vw;
+  }
+  .we-increase .we-increase-points ul li {
+    font-size: 2.4vw;
+  }
+  .we-increase .we-increase-points ul li::before {
+    font-size: 2.3vw;
+  }
+  .simple-steps h2 {
+    font-size: 4.2vw;
+    line-height: 6vw;
+  }
+  .simple-steps h3 {
+    max-width: 72%;
+    font-size: 3.2vw;
+  }
+  .simple-steps .simple-steps-content h3 {
+    font-size: 2.9vw;
+    line-height: 4vw;
+    max-width: 100%;
+  }
+  .simple-steps .simple-steps-content p {
+    font-size: 2.5vw;
+  }
+  .simple-steps .simple-steps-content-2 h3 {
+    font-size: 2.9vw;
+    line-height: 4vw;
+    max-width: 100%;
+  }
+  .simple-steps .simple-steps-content-2 p {
+    font-size: 2.5vw;
+  }
+  .simple-steps .simple-steps-content-3 h3 {
+    font-size: 2.9vw;
+    max-width: 100%;
+    line-height: 4vw;
+  }
+  .simple-steps .simple-steps-content-3 p {
+    font-size: 2.5vw;
+  }
+  .red-cta {
+    padding: 4vw 0vw;
+  }
+  .red-cta span {
+    font-size: 3.6vw;
+  }
+  .red-cta p {
+    font-size: 2.6vw;
+    line-height: 4.2vw;
+    max-width: 100%;
+  }
+  .main-points {
+    padding: 6vw 0vw;
+  }
+  .main-points h2 {
+    font-size: 3.7vw;
+    line-height: 6vw;
+    margin-bottom: 6vw;
+  }
+  .main-points .main-points-box {
+    min-height: 25vw;
+    padding: 3.4vw 1vw;
+  }
+  .main-points .main-points-box img {
+    margin-bottom: 2vw;
+  }
+  .free-option span {
+    font-size: 3.9vw;
+  }
+  .free-option p {
+    line-height: 4vw;
+    font-size: 2.7vw;
+    max-width: 100%;
+  }
+  .free-option .btn-danger {
+    padding: 1.2vw 5vw 1.6vw 5vw;
+    margin-top: 4vw;
+  }
+  .what-makes-us {
+    padding: 6vw 0vw;
+  }
+  .what-makes-us h2 {
+    font-size: 3.6vw;
+    max-width: 85%;
+    line-height: 5.5vw;
+  }
+  .what-makes-us h3 {
+    font-size: 2.7vw;
+    line-height: 4.5vw;
+  }
+  .what-makes-us p {
+    font-size: 2.2vw;
+  }
+  .what-makes-us .btn-primary {
+    padding: 1.2vw 5vw 1.6vw 5vw;
+    margin-top: 2vw;
+    font-size: 2.7vw;
+  }
+  .home-faq {
+    padding: 5vw 0vw;
+  }
+  .home-faq h2 {
+    font-size: 4.2vw;
+    margin-bottom: 3vw;
+  }
+  .home-faq p {
+    font-size: 2.4vw;
+    line-height: 4.2vw;
+  }
+  .home-faq .tab-pane ul li {
+    font-size: 2.2vw;
+    display: flex;
+  }
+  .home-faq .tab-pane ul li::before {
+    font-size: 2.3vw;
+    margin-right: 1.4vw;
+  }
+  .home-faq .nav-link h4 {
+    font-size: 2.3vw;
+  }
+  .home-faq .tab-pane {
+    padding: 1vw 0vw 2vw 0vw;
+  }
+  .home-faq .card-body {
+    padding: 1.6vw 0.7vw;
+  }
+  .home-faq h3 {
+    line-height: 4.7vw;
+    font-size: 3.3vw;
+  }
+  .home-faq .last-content p strong {
+    font-size: 3vw;
+  }
+  .home-faq .last-content p {
+    font-size: 2.04vw;
+  }
+  .home-more-faq .btn-link {
+    font-size: 2vw;
+  }
+  .home-more-faq .card {
+    min-height: 22vw;
+  }
+  .home-more-faq .card-header {
+    padding: 2vw 1vw;
+  }
+  .home-more-faq h2 {
+    font-size: 4.1vw;
+  }
+  .home-more-faq p {
+    font-size: 2.2vw;
+  }
+  .home-more-faq .last-text p {
+    font-size: 4vw;
+    max-width: 100%;
+  }
+  .home-more-faq .btn-info {
+    padding: 1.6vw 4vw 2.1vw 4vw;
+    margin: 4vw 0vw;
+    font-size: 3vw;
+  }
+}
+
+@media only screen and (min-width:  1024px) and (max-width: 1100px) {
+  .navbar-light .navbar-nav {
+    margin-left: 3vw !important;
+    margin-top: -0.2vw;
+  }
+  .navbar-light .btn-danger {
+    margin: 2vw 0vw !important;
+    padding: 0.7vw 0vw;
+    font-size: 1.1vw;
+  }
+  .navbar-brand img {
+    width: 15vw;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 1.2vw;
+    padding: 0.7vw 0.7vw;
+  }
+  .dropdown {
+    font-size: 1.2vw;
+    padding: 0vw 0.9vw;
+  }
+  .dropdown .dropdown-item {
+    font-size: 1.2vw;
+  }
+
+  /* .jumbotron {
+    background: url('../assets/home/Valentine-Banner-1024.webp') no-repeat;
+    height: 1350px;
+  } */
+  .jumbotron h1 {
+    font-size: 4vw;
+    line-height: 5.6vw;
+    top: 6vw;
+    max-width: 100%;
+  }
+  .jumbotron p {
+    top: 15vw;
+  }
+  .jumbotron .banner-para {
+    top: 26.7vw;
+    font-size: 2.5vw;
+  }
+  .jumbotron h6 {
+    top: 34vw;
+  }
+  .jumbotron main {
+    font-size: 3.3vw;
+    top: 39vw;
+  }
+  .jumbotron .banner-points {
+    top: 47vw;
+  }
+}
+/* @media only screen and (min-width:  1200px) and (max-width: 1220px) {
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 1.3vw;
+    margin-left: 0vw;
+  }
+  .navbar-light form .btn-danger {
+    padding: 0.7vw 2vw 2vw 2vw;
+    font-size: 1.4vw;
+  }
+  .jumbotron h1 {
+    font-size: 3.2vw;
+    line-height: 4.6vw;
+    top: 4vw;
+    max-width: 70%;
+  }
+  .jumbotron p {
+    top: 20vw;
+  }
+  .jumbotron .banner-points {
+    top: 25vw;
+  }
+} */
+
+
+

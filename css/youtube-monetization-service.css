@@ -1,0 +1,468 @@
+
+
+/* banner */
+main {
+    background: url('../assets/youtube-consulting/youtube-monetization-service/yt-monetization-service-banner.webp') no-repeat;
+    height: 560px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin-top: 89px;
+}
+main .main-caption {
+    position: absolute;
+    top: 33%;
+    left: 47%;
+    right: 10%;
+}
+main .main-caption h1 {
+    font-size: 34px;
+    color: #fff;
+    padding: 25px 45px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 4px solid #fff;
+    line-height: 48px;
+}
+.banner-border {
+    padding: 11px 0px;
+    margin-top: -23px;
+}
+.banner-border-one {
+    background-color: #153752;
+    float: left;
+    padding: 12px 0px;
+    width: 30%;
+}
+.banner-border-two {
+    background-color: #a3dcef;
+    width: 40%;
+    float: left;
+    padding: 12px 0px;
+}
+.banner-border-three {
+    background-color: #153752;
+    width: 30%;
+    float: left;
+    padding: 12px 0px;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    main {
+        background: url('../assets/youtube-consulting/youtube-monetization-service/yt-monetization-service-banner-375.webp') no-repeat;
+        margin-top: 0px;
+        height: 470px;
+    }
+    main .main-caption {
+        position: absolute;
+        top: 64%;
+        left: 13px;
+        right: 13px;
+    }
+    main .main-caption h1 {
+        font-size: 20px;
+        padding: 10px 10px;
+        line-height: 28px;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    main {
+        background: url('../assets/youtube-consulting/youtube-monetization-service/yt-monetization-service-banner-375.webp') no-repeat;
+        margin-top: 0px;
+        height: 470px;
+    }
+    main .main-caption {
+        position: absolute;
+        top: 69%;
+        left: 13px;
+        right: 13px;
+    }
+    main .main-caption h1 {
+        font-size: 20px;
+        padding: 10px 10px;
+        line-height: 28px;
+    }
+}
+@media (min-width: 414px) and (max-width: 568px) {
+    main {
+        background: url('../assets/youtube-consulting/youtube-monetization-service/yt-monetization-service-banner-414.webp') no-repeat;
+        margin-top: 0px;
+        height: 465px;
+    }
+    main .main-caption {
+        position: absolute;
+        top: 71%;
+        left: 13px;
+        right: 13px;
+    }
+    main .main-caption h1 {
+        font-size: 20px;
+        padding: 10px 10px;
+        line-height: 28px;
+    }
+}
+/* //banner */
+
+/* main text */
+.main-text {
+    padding: 50px 0px 0px 0px;
+    position: relative;
+}
+.main-text p {
+    background-color: #395173;
+    padding: 28px 10px 50px 10px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+    border-top: 1px solid rgb(182, 182, 182);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.main-text p::after {
+    display: inline-block;
+    height: 1px;
+    background-color: rgb(185, 185, 185);
+    width: 120%;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -10%;
+    right: 0;
+}
+.main-text .btn-danger {
+    background-color: #ed5c57;
+    border-color: #ed5c57;
+    font-weight: 600;
+    margin-top: -63px;
+    text-transform: uppercase;
+    border-radius: 100px;
+    padding: 10px 23px;
+}
+.main-text .main-text-content p {
+    background-color: inherit !important;
+    color: #395173;
+}
+
+@media (min-width: 320px) and (max-width: 375px)  {
+    .main-text p::after {
+        display: none;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px)  {
+    .main-text p::after {
+        display: none;
+    }
+}
+@media (min-width: 414px) and (max-width: 568px)  {
+    .main-text p::after {
+        display: none;
+    }
+}
+/* //main text */
+
+/* imp text */
+.imp-text {
+    padding: 50px 0px;
+}
+.imp-text .imp-text-grid {
+    background-color: #395173; 
+    border-radius: 10px; 
+    margin: 90px 0px 45px -100px;
+    padding: 45px 0px;
+}
+.imp-text .imp-text-grid p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 33px;
+    font-weight: 600;
+    padding: 0px 22px;
+}
+.imp-text .btn-danger {
+    border-radius: 100px;
+    padding: 12px 22px 14px 22px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #c82333;
+    border-color: #c82333;
+}
+.imp-text .btn-danger:hover {
+    background-color: #ad1424;
+    color: #fff;
+    border-color: #ad1424;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .imp-text .imp-text-grid {
+        margin: 0px;
+        margin-top: 10px;
+    }
+    .imp-text p {
+        padding: 28px 10px;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    .imp-text .imp-text-grid {
+        margin: 0px;
+        margin-top: 10px;
+    }
+    .imp-text p {
+        padding: 28px 10px;
+    }
+}
+@media (min-width: 414px) and (max-width: 568px) {
+    .imp-text .imp-text-grid {
+        margin: 0px;
+        margin-top: 10px;
+    }
+    .imp-text p {
+        padding: 28px 10px;
+    }
+}
+/* imp text */
+
+/* How do we help creators   */
+.how-do-we-help-creators {
+    padding: 50px 0px;
+    background-color: #edf9fe;
+} 
+.how-do-we-help-creators h2 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37px;
+    text-transform: uppercase;
+    border-top: 1px solid rgb(131, 131, 131);
+    border-bottom: 1px solid rgb(131, 131, 131);
+    padding: 20px 0px;
+    color: rgb(68, 68, 68);
+    text-align: center;
+}
+.how-do-we-help-creators .how-do-we-help-creators-grid {
+    padding: 93px 0px;
+}
+.how-do-we-help-creators .how-do-we-help-creators-grid h3 {
+    color: #da7c7b;
+    padding: 0;
+    line-height: 30px;
+    font-weight: 700;
+    font-size: 21px;
+    text-transform: capitalize;
+}
+.how-do-we-help-creators .how-do-we-help-creators-grid p {
+    color: #3b516d;
+    font-weight: 600;
+    margin: 0;
+    font-size: 17px;
+    padding: 0;
+    margin-top: 10px;
+}
+.how-do-we-help-creators .btn-info {
+    padding: 12px 22px 14px 22px;
+    background-color: #c82333;
+    border-color: #c82333;
+    border-radius: 100px;
+    font-weight: 600;
+    color: #fff;
+}
+.how-do-we-help-creators .btn-info:hover {
+    background-color: #ad1424;
+    color: #fff;
+    border-color: #ad1424;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .how-do-we-help-creators h2 {
+        font-size: 20px;
+        line-height: 29px;
+    }
+    .how-do-we-help-creators .how-do-we-help-creators-grid {
+        padding: 15px 0px;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    .how-do-we-help-creators h2 {
+        font-size: 20px;
+        line-height: 29px;
+    }
+    .how-do-we-help-creators .how-do-we-help-creators-grid {
+        padding: 15px 0px;
+    }
+}
+@media (min-width: 414px) and (max-width: 568px) {
+    .how-do-we-help-creators h2 {
+        font-size: 22px;
+        line-height: 31px;
+    }
+    .how-do-we-help-creators .how-do-we-help-creators-grid {
+        padding: 15px 0px;
+    }
+}
+/* //YouTube SEO strategy  */
+
+
+
+/* what-makes-no-1 */
+.what-makes-no-1 {
+    padding: 50px 0px;
+}
+.what-makes-no-1 h2 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37px;
+    text-transform: uppercase;
+    border-top: 1px solid rgb(131, 131, 131);
+    border-bottom: 1px solid rgb(131, 131, 131);
+    padding: 20px 0px;
+    color: rgb(68, 68, 68);
+    text-align: center;
+}
+.what-makes-no-1 .col-md-4, .col-lg-4 {
+    margin-bottom: 30px;
+}
+.what-makes-no-1 .what-makes-no-1-grid {
+    text-align: center;
+}
+.what-makes-no-1 .what-makes-no-1-grid h3 {
+    padding: 10px 0px;
+    font-size: 23px;
+}
+.what-makes-no-1 .what-makes-no-1-grid p {
+    border: 1px solid rgb(185, 185, 185);
+    padding: 18px 18px;
+    color: #686868;
+    min-height: 186px;
+    font-weight: 600;
+}
+.what-makes-no-1 .btn-info {
+    padding: 12px 22px 14px 22px;
+    background-color: #c82333;
+    border-color: #c82333;
+    border-radius: 100px;
+    font-weight: 600;
+    color: #fff;
+}
+.what-makes-no-1 .btn-info:hover {
+    background-color: #ad1424;
+    color: #fff;
+    border-color: #ad1424;
+}
+
+.b-right {
+    border-right: 1px solid rgb(180, 180, 180);
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .what-makes-no-1 h2 {
+        font-size: 21px;
+        line-height: 31px;
+        padding: 15px 0px;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    .what-makes-no-1 h2 {
+        font-size: 21px;
+        line-height: 31px;
+        padding: 15px 0px;
+    }
+}
+@media (min-width: 414px) and (max-width: 568px) {
+    .what-makes-no-1 h2 {
+        font-size: 22px;
+        line-height: 32px;
+        padding: 15px 0px;
+    }
+}
+/* //what-makes-no-1 */
+
+
+/* why you need */
+.why-you-need-our-services {
+    padding: 50px 0px;
+}
+.why-you-need-our-services h2 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37px;
+    text-transform: uppercase;
+    border-top: 1px solid rgb(131, 131, 131);
+    border-bottom: 1px solid rgb(131, 131, 131);
+    padding: 20px 0px;
+    color: rgb(68, 68, 68);
+    text-align: center;
+}
+.why-you-need-our-services p {
+    color: #565656;
+    font-size: 18px;
+    font-weight: 600;
+}
+.why-you-need-our-services a {
+    color: #b4d2ff;
+}
+.why-you-need-our-services-text {
+    background-color: #395173 !important;
+    padding: 50px 20px;
+    color: #fff;
+}
+.why-you-need-our-services-text p {
+    font-size: 17px;
+    color: #fff !important;
+    font-weight: 600;
+}
+.why-you-need-our-services ul li {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .why-you-need-our-services h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    .why-you-need-our-services h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+@media (min-width: 414px) and (max-width: 568px) {
+    .why-you-need-our-services h2 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+}
+/* //why you need */
+
+
+@media (max-width: 674px) {
+    .container-fluid {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .why-you-need-our-services ul {
+        padding-inline-start: inherit;
+    }
+    body {
+        overflow-x: hidden !important;
+      }
+      html {
+        overflow-x: hidden !important;
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+.rs-youtubers-collab {
+    animation: fadein 2s;
+}
+  .btn-primary {
+    background: #133852 !important;
+    border: none !important;
+    color: #fff !important;
+    border-radius: 6px !important;
+  }
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

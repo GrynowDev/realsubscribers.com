@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143978554-4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-143978554-4');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youtube Analytics: How to Track the Right Metrics </title>
+  <meta name="description"
+    content="Learn here the YouTube analytics in great details. Learn how to track the right metrics.">
+  <link rel="canonical" href="https://www.realsubscribers.com/blogs/youtube-analytics.html">
+  <link rel="icon" href="../assets/favicon.webp">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/blogs/internal-blog-page.css">
+  <link rel="stylesheet" href="../css/common.css"> -->
+  <style>
+    :root{--blue:#007bff;--indigo:#6610f2;--purple:#6f42c1;--pink:#e83e8c;--red:#dc3545;--orange:#fd7e14;--yellow:#ffc107;--green:#28a745;--teal:#20c997;--cyan:#17a2b8;--white:#fff;--gray:#6c757d;--gray-dark:#343a40;--primary:#007bff;--secondary:#6c757d;--success:#28a745;--info:#17a2b8;--warning:#ffc107;--danger:#dc3545;--light:#f8f9fa;--dark:#343a40;--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px;--font-family-sans-serif:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}*,::after,::before{box-sizing:border-box}html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:transparent}figure,footer,header,nav{display:block}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";font-size:1rem;font-weight:400;line-height:1.5;color:#212529;text-align:left;background-color:#fff}hr{box-sizing:content-box;height:0;overflow:visible}h1,h2,h3,h4,h6{margin-top:0;margin-bottom:.5rem}p{margin-top:0;margin-bottom:1rem}ul{margin-top:0;margin-bottom:1rem}ul ul{margin-bottom:0}strong{font-weight:bolder}a{color:#007bff;text-decoration:none;background-color:transparent}a:hover{color:#0056b3;text-decoration:underline}a:not([href]){color:inherit;text-decoration:none}a:not([href]):hover{color:inherit;text-decoration:none}figure{margin:0 0 1rem}img{vertical-align:middle;border-style:none}table{border-collapse:collapse}button{border-radius:0}button:focus{outline:1px dotted;outline:5px auto -webkit-focus-ring-color}button,select{margin:0;font-family:inherit;font-size:inherit;line-height:inherit}button{overflow:visible}button,select{text-transform:none}select{word-wrap:normal}[type=button],button{-webkit-appearance:button}[type=button]:not(:disabled),button:not(:disabled){cursor:pointer}[type=button]::-moz-focus-inner,button::-moz-focus-inner{padding:0;border-style:none}progress{vertical-align:baseline}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[hidden]{display:none!important}.h1,.h2,.h3,.h4,.h6,h1,h2,h3,h4,h6{margin-bottom:.5rem;font-weight:500;line-height:1.2}.h1,h1{font-size:2.5rem}.h2,h2{font-size:2rem}.h3,h3{font-size:1.75rem}.h4,h4{font-size:1.5rem}.h6,h6{font-size:1rem}hr{margin-top:1rem;margin-bottom:1rem;border:0;border-top:1px solid rgba(0,0,0,.1)}.img-fluid{max-width:100%;height:auto}.figure{display:inline-block}.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:576px){.container{max-width:540px}}@media (min-width:768px){.container{max-width:720px}}@media (min-width:992px){.container{max-width:960px}}@media (min-width:1200px){.container{max-width:1140px}}.container-fluid{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:576px){.container{max-width:540px}}@media (min-width:768px){.container{max-width:720px}}@media (min-width:992px){.container{max-width:960px}}@media (min-width:1200px){.container{max-width:1140px}}.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}.col-lg-12,.col-lg-3,.col-md-12,.col-md-3,.col-sm-12{position:relative;width:100%;padding-right:15px;padding-left:15px}@media (min-width:576px){.col-sm-12{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}}@media (min-width:768px){.col-md-3{-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.col-md-12{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}}@media (min-width:992px){.col-lg-3{-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.col-lg-12{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}}.table{width:100%;margin-bottom:1rem;color:#212529}.form-inline{display:-ms-flexbox;display:flex;-ms-flex-flow:row wrap;flex-flow:row wrap;-ms-flex-align:center;align-items:center}.btn{display:inline-block;font-weight:400;color:#212529;text-align:center;vertical-align:middle;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-color:transparent;border:1px solid transparent;padding:.375rem .75rem;font-size:1rem;line-height:1.5;border-radius:.25rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out}@media (prefers-reduced-motion:reduce){.btn{transition:none}}.btn:hover{color:#212529;text-decoration:none}.btn.focus,.btn:focus{outline:0;box-shadow:0 0 0 .2rem rgba(0,123,255,.25)}.btn.disabled,.btn:disabled{opacity:.65}a.btn.disabled{pointer-events:none}.btn-info{color:#fff;background-color:#17a2b8;border-color:#17a2b8}.btn-info:hover{color:#fff;background-color:#138496;border-color:#117a8b}.btn-info.focus,.btn-info:focus{color:#fff;background-color:#138496;border-color:#117a8b;box-shadow:0 0 0 .2rem rgba(58,176,195,.5)}.btn-info.disabled,.btn-info:disabled{color:#fff;background-color:#17a2b8;border-color:#17a2b8}.btn-info:not(:disabled):not(.disabled).active,.btn-info:not(:disabled):not(.disabled):active,.show>.btn-info.dropdown-toggle{color:#fff;background-color:#117a8b;border-color:#10707f}.btn-info:not(:disabled):not(.disabled).active:focus,.btn-info:not(:disabled):not(.disabled):active:focus,.show>.btn-info.dropdown-toggle:focus{box-shadow:0 0 0 .2rem rgba(58,176,195,.5)}.btn-danger{color:#fff;background-color:#dc3545;border-color:#dc3545}.btn-danger:hover{color:#fff;background-color:#c82333;border-color:#bd2130}.btn-danger.focus,.btn-danger:focus{color:#fff;background-color:#c82333;border-color:#bd2130;box-shadow:0 0 0 .2rem rgba(225,83,97,.5)}.btn-danger.disabled,.btn-danger:disabled{color:#fff;background-color:#dc3545;border-color:#dc3545}.btn-danger:not(:disabled):not(.disabled).active,.btn-danger:not(:disabled):not(.disabled):active,.show>.btn-danger.dropdown-toggle{color:#fff;background-color:#bd2130;border-color:#b21f2d}.btn-danger:not(:disabled):not(.disabled).active:focus,.btn-danger:not(:disabled):not(.disabled):active:focus,.show>.btn-danger.dropdown-toggle:focus{box-shadow:0 0 0 .2rem rgba(225,83,97,.5)}.collapse:not(.show){display:none}.dropdown{position:relative}.dropdown-toggle{white-space:nowrap}.dropdown-toggle::after{display:inline-block;margin-left:.255em;vertical-align:.255em;content:"";border-top:.3em solid;border-right:.3em solid transparent;border-bottom:0;border-left:.3em solid transparent}.dropdown-toggle:empty::after{margin-left:0}.dropdown-menu{position:absolute;top:100%;left:0;z-index:1000;display:none;float:left;min-width:10rem;padding:.5rem 0;margin:.125rem 0 0;font-size:1rem;color:#212529;text-align:left;list-style:none;background-color:#fff;background-clip:padding-box;border:1px solid rgba(0,0,0,.15);border-radius:.25rem}.dropdown-item{display:block;width:100%;padding:.25rem 1.5rem;clear:both;font-weight:400;color:#212529;text-align:inherit;white-space:nowrap;background-color:transparent;border:0}.dropdown-item:focus,.dropdown-item:hover{color:#16181b;text-decoration:none;background-color:#f8f9fa}.dropdown-item.active,.dropdown-item:active{color:#fff;text-decoration:none;background-color:#007bff}.dropdown-item.disabled,.dropdown-item:disabled{color:#6c757d;pointer-events:none;background-color:transparent}.dropdown-menu.show{display:block}.nav{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;padding-left:0;margin-bottom:0;list-style:none}.nav-link{display:block;padding:.5rem 1rem}.nav-link:focus,.nav-link:hover{text-decoration:none}.nav-link.disabled{color:#6c757d;pointer-events:none;cursor:default}.navbar{position:relative;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-align:center;align-items:center;-ms-flex-pack:justify;justify-content:space-between;padding:.5rem 1rem}.navbar .container,.navbar .container-fluid{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-align:center;align-items:center;-ms-flex-pack:justify;justify-content:space-between}.navbar-brand{display:inline-block;padding-top:.3125rem;padding-bottom:.3125rem;margin-right:1rem;font-size:1.25rem;line-height:inherit;white-space:nowrap}.navbar-brand:focus,.navbar-brand:hover{text-decoration:none}.navbar-nav{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;padding-left:0;margin-bottom:0;list-style:none}.navbar-nav .nav-link{padding-right:0;padding-left:0}.navbar-nav .dropdown-menu{position:static;float:none}.navbar-collapse{-ms-flex-preferred-size:100%;flex-basis:100%;-ms-flex-positive:1;flex-grow:1;-ms-flex-align:center;align-items:center}.navbar-toggler{padding:.25rem .75rem;font-size:1.25rem;line-height:1;background-color:transparent;border:1px solid transparent;border-radius:.25rem}.navbar-toggler:focus,.navbar-toggler:hover{text-decoration:none}@media (max-width:991.98px){.navbar-expand-lg>.container,.navbar-expand-lg>.container-fluid{padding-right:0;padding-left:0}}@media (min-width:992px){.navbar-expand-lg{-ms-flex-flow:row nowrap;flex-flow:row nowrap;-ms-flex-pack:start;justify-content:flex-start}.navbar-expand-lg .navbar-nav{-ms-flex-direction:row;flex-direction:row}.navbar-expand-lg .navbar-nav .dropdown-menu{position:absolute}.navbar-expand-lg .navbar-nav .nav-link{padding-right:.5rem;padding-left:.5rem}.navbar-expand-lg>.container,.navbar-expand-lg>.container-fluid{-ms-flex-wrap:nowrap;flex-wrap:nowrap}.navbar-expand-lg .navbar-collapse{display:-ms-flexbox!important;display:flex!important;-ms-flex-preferred-size:auto;flex-basis:auto}.navbar-expand-lg .navbar-toggler{display:none}}.navbar-light .navbar-brand{color:rgba(0,0,0,.9)}.navbar-light .navbar-brand:focus,.navbar-light .navbar-brand:hover{color:rgba(0,0,0,.9)}.navbar-light .navbar-nav .nav-link{color:rgba(0,0,0,.5)}.navbar-light .navbar-nav .nav-link:focus,.navbar-light .navbar-nav .nav-link:hover{color:rgba(0,0,0,.7)}.navbar-light .navbar-nav .nav-link.disabled{color:rgba(0,0,0,.3)}.navbar-light .navbar-nav .active>.nav-link,.navbar-light .navbar-nav .nav-link.active,.navbar-light .navbar-nav .nav-link.show,.navbar-light .navbar-nav .show>.nav-link{color:rgba(0,0,0,.9)}.navbar-light .navbar-toggler{color:rgba(0,0,0,.5);border-color:rgba(0,0,0,.1)}@-webkit-keyframes progress-bar-stripes{from{background-position:1rem 0}to{background-position:0 0}}@keyframes progress-bar-stripes{from{background-position:1rem 0}to{background-position:0 0}}.progress{display:-ms-flexbox;display:flex;height:1rem;overflow:hidden;font-size:.75rem;background-color:#e9ecef;border-radius:.25rem}.media{display:-ms-flexbox;display:flex;-ms-flex-align:start;align-items:flex-start}@-webkit-keyframes spinner-border{to{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes spinner-border{to{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.spinner-border{display:inline-block;width:2rem;height:2rem;vertical-align:text-bottom;border:.25em solid currentColor;border-right-color:transparent;border-radius:50%;-webkit-animation:spinner-border .75s linear infinite;animation:spinner-border .75s linear infinite}@keyframes spinner-grow{0%{-webkit-transform:scale(0);transform:scale(0)}50%{opacity:1}}.spinner-grow{display:inline-block;width:2rem;height:2rem;vertical-align:text-bottom;background-color:currentColor;border-radius:50%;opacity:0;-webkit-animation:spinner-grow .75s linear infinite;animation:spinner-grow .75s linear infinite}.bg-light{background-color:#f8f9fa!important}a.bg-light:focus,a.bg-light:hover,button.bg-light:focus,button.bg-light:hover{background-color:#dae0e5!important}.border{border:1px solid #dee2e6!important}.border-top{border-top:1px solid #dee2e6!important}.border-right{border-right:1px solid #dee2e6!important}.border-bottom{border-bottom:1px solid #dee2e6!important}.border-left{border-left:1px solid #dee2e6!important}.d-block{display:block!important}.d-flex{display:-ms-flexbox!important;display:flex!important}@media (min-width:992px){.d-lg-inline-block{display:inline-block!important}}.flex-wrap{-ms-flex-wrap:wrap!important;flex-wrap:wrap!important}.justify-content-center{-ms-flex-pack:center!important;justify-content:center!important}.fixed-top{position:fixed;top:0;right:0;left:0;z-index:1030}.my-0{margin-top:0!important}.my-0{margin-bottom:0!important}.my-2{margin-top:.5rem!important}.mr-2{margin-right:.5rem!important}.my-2{margin-bottom:.5rem!important}.ml-2{margin-left:.5rem!important}.mt-3{margin-top:1rem!important}.mb-3{margin-bottom:1rem!important}.mt-4{margin-top:1.5rem!important}.mb-4{margin-bottom:1.5rem!important}.px-0{padding-right:0!important}.px-0{padding-left:0!important}.pr-2{padding-right:.5rem!important}.pb-2{padding-bottom:.5rem!important}.px-3{padding-right:1rem!important}.px-3{padding-left:1rem!important}.pt-4{padding-top:1.5rem!important}.px-4{padding-right:1.5rem!important}.pb-4{padding-bottom:1.5rem!important}.pl-4,.px-4{padding-left:1.5rem!important}.mx-auto{margin-right:auto!important}.mx-auto{margin-left:auto!important}@media (min-width:576px){.my-sm-0{margin-top:0!important}.my-sm-0{margin-bottom:0!important}}@media (min-width:992px){.my-lg-0{margin-top:0!important}.my-lg-0{margin-bottom:0!important}}.text-right{text-align:right!important}.text-center{text-align:center!important}.text-capitalize{text-transform:capitalize!important}.font-weight-bold{font-weight:700!important}.font-weight-bolder{font-weight:bolder!important}.text-danger{color:#dc3545!important}a.text-danger:focus,a.text-danger:hover{color:#a71d2a!important}.text-light{color:#f8f9fa!important}a.text-light:focus,a.text-light:hover{color:#cbd3da!important}.text-dark{color:#343a40!important}a.text-dark:focus,a.text-dark:hover{color:#121416!important}.visible{visibility:visible!important}@media print{*,::after,::before{text-shadow:none!important;box-shadow:none!important}a:not(.btn){text-decoration:underline}img{page-break-inside:avoid}h2,h3,p{orphans:3;widows:3}h2,h3{page-break-after:avoid}@page{size:a3}body{min-width:992px!important}.container{min-width:992px!important}.navbar{display:none}.table{border-collapse:collapse!important}}body{font-family:Exo,sans-serif!important}#toc_container{background:#f9f9f9 none repeat scroll 0 0;border:1px solid #aaa;display:table;font-size:95%;margin-bottom:1em;padding:20px;width:auto}.toc_title{font-weight:700;text-align:center}#toc_container li,#toc_container ul,#toc_container ul li{list-style:outside none none!important}p{color:#656565;text-align:justify;font-size:17px;line-height:32px}p>i{color:#656565;font-size:17px}.blog-content ul li{margin-bottom:7px;color:#656565;font-size:17px}.blog-content .btn-info{background-color:#dc3545;border-color:#dc3545;padding:.9vw 2vw .96vw 2vw;border-radius:100px;font-weight:600;text-transform:capitalize}.rs-blog h1{margin-top:95px!important;font-weight:600;color:#494949!important;font-size:34px;margin-bottom:20px}.rs-blog h2{font-size:24px;line-height:40px;font-weight:600;color:#494949!important}.rs-blog h3{font-weight:600;font-size:21px;color:#494949}.rs-blog h4{font-size:20px;font-weight:600;color:#585858}.blog-common-btn .btn-danger{background-color:#dc3545;border-color:#dc3545;border-color:inherit;padding:.8vw 2vw .9vw 2vw;border-radius:100px;font-weight:700;margin-top:1.4vw;margin-right:.5vw}.blog-common-btn .btn-info{background:-moz-linear-gradient(45deg,#f09433 0,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);background:-webkit-linear-gradient(45deg,#f09433 0,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);background:linear-gradient(45deg,#f09433 0,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);border-color:inherit;padding:.8vw 2vw .9vw 2vw;border-radius:100px;font-weight:700;margin-top:1.4vw}@media (min-width:320px) and (max-width:375px){.rs-blog h1{margin-top:68px!important;font-size:20px;line-height:32px}.blog-content h2{font-size:20px;line-height:29px}.blog-content h3{font-size:20px;line-height:29px}.container-fluid{padding-left:0!important;padding-right:0!important}.blog-common-btn .btn-danger{padding:1.9vw 6vw 2.2vw 6vw;font-size:4vw;margin-bottom:1.2vw}.blog-common-btn .btn-info{padding:1.9vw 6vw 2.2vw 6vw;font-size:4vw}}@media (min-width:375px) and (max-width:414px){.rs-blog h1{margin-top:78px!important;font-size:22px;line-height:34px}.blog-content h2{font-size:20px;line-height:29px}.blog-content h3{font-size:22px;line-height:31px}.container-fluid{padding-left:0!important;padding-right:0!important}.blog-common-btn .btn-danger{padding:1.9vw 6vw 2.2vw 6vw;font-size:4vw;margin-bottom:1.2vw}.blog-common-btn .btn-info{padding:1.9vw 6vw 2.2vw 6vw;font-size:4vw}}@media (min-width:414px) and (max-width:568px){.rs-blog h1{margin-top:85px!important;font-size:26px;line-height:38px}.blog-content h2{font-size:25px;line-height:36px}.blog-content h3{font-size:25px;line-height:36px}.container-fluid{padding-left:0!important;padding-right:0!important}.blog-common-btn .btn-danger{padding:2.1vw 6vw 2.2vw 6vw;font-size:4vw;margin-bottom:1.2vw}.blog-common-btn .btn-info{padding:1.9vw 6vw 2.2vw 6vw;font-size:4vw}}@media (max-width:768px){html{overflow-x:hidden!important}body{overflow-x:hidden!important}#toc_container ul{padding-inline-start:initial}}
+  </style>
+
+  <!--Start of Tawk.to Script-->
+  <script type="text/javascript">
+    var Tawk_API = Tawk_API || {},
+      Tawk_LoadStart = new Date();
+    (function () {
+      var s1 = document.createElement("script"),
+        s0 = document.getElementsByTagName("script")[0];
+      s1.async = true;
+      s1.src = 'https://embed.tawk.to/5e5380e3a89cda5a1887988e/default';
+      s1.charset = 'UTF-8';
+      s1.setAttribute('crossorigin', '*');
+      s0.parentNode.insertBefore(s1, s0);
+    })();
+  </script>
+  <!--End of Tawk.to Script-->
+
+  <!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '264216665191828');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=264216665191828&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Facebook Pixel Code -->
+
+  <!-- Global site tag (gtag.js) - Google Ads: 397302622 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-397302622"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-397302622');
+</script>
+
+
+</head>
+
+<body>
+
+  <div id="header-wrapper"></div>
+
+   <!-- blog share -->
+<section class="container-fluid share-blog">
+  <ul class="text-center">
+    <p>Share Blog</p>
+    <li><a
+        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.realsubscribers.com%2Fblogs%2Fyoutube-analytics.html"
+        target="_blank" rel="nofollow" title="Share on Facebook"><i class="fa fa-facebook"></i></a></li>
+    <li><a
+        href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.realsubscribers.com%2Fblogs%2Fyoutube-analytics.html&title="
+        target="_blank" rel="nofollow" title="Share on Linkedin"><i class="fa fa-linkedin"></i></a></li>
+    <li><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.realsubscribers.com%2Fblogs%2Fyoutube-analytics.html&text="
+        target="_blank" rel="nofollow" title="Share on Twitter"><i class="fa fa-twitter"></i></a></li>
+  </ul>
+</section>
+<!-- //blog share -->
+
+  <div class="rs-blog">
+    <div class="container">
+      <div class="col-md-12 ">
+        <div class="row justify-content-center">
+          <div class="col-md-12 pt-4">
+            <h1 class="text-dark mt-4 text-center mb-4">YouTube Analytics: How to Track the Right Metrics</h1>
+            <img src="../assets/blogs/youtube-analytics/1-Youtube-Analytics.webp" class="img-fluid mb-4"
+              alt="YouTube Analytics">
+          </div>
+          <div class="blog-content px-3">
+            <p>The most important in refining your Youtube marketing strategy is the correct use YouTube Analytics. </p>
+            <p>“How can I make my YouTube videos engage more?”</p>
+            <p><i>But why is this important?</i></p>
+            <p>Analysing your Youtube insights in the YouTube video Analytics allows you to understand whether your efforts and YouTube marketing is working for you or not. It helps you tweak and optimize your strategy in order to achieve the desired results. It helps you understand what works and what don’t’!  Hence, making an informed decision in the form of an insight from YouTube analytics is essential.</p>
+            <p>When you master analysing Youtube Channel Analytics, you learn how to create the most effective strategies to <a href="https://www.realsubscribers.com/blogs/how-youtubers-can-grow-youtube-channel.html" target="_blank">grow your Youtube channel</a> by gaining likes, comments, shares and subscribers. You come to know what type of topics are working for you, what length of video working, what timings are best for posting, you should focus on which gender more , which language, which trend and more!</p>
+            <p>Many youtubers don’t dive into Youtube analytics and like <a href="/" target="_blank">youtube subscribers buying</a> to instead, that are real people, to grow their channel organically. </p>
+            <p>In this blog, we will discuss how and what youtube analytics metrics you should track in order to get the best out of your YouTube channel. Now let’s deep dive into it.</p>
+
+            <div class="col-md-12 pb-4 mt-4 px-0">
+              <div id="toc_container">
+                <p class="toc_title">Contents</p>
+                <ul class="toc_list">
+                  <li><a href="#how_can">1. How can I see channel analytics in YouTube?   </a></li>
+                  <li><a href="#watch">2. Watch Time </a></li>
+                  <li><a href="#subscribers">3. Subscribers  </a></li>
+                  <li><a href="#views">4. Views </a></li>
+                  <li><a href="#unique">5. Unique viewers </a></li>
+                  <li><a href="#audience">6. Audience Retention </a></li>
+                  <li><a href="#demo">7. Demographics </a></li>
+                  <li><a href="#impressions">8. Impressions Click Through Rate </a></li>
+                  <li><a href="#engagement">9. Engagement Metrics- Likes / Dislikes, Shares, Comments </a></li>
+                  <li><a href="#traffic">10. Traffic Sources </a></li>
+                  <li><a href="#average">11. Average View Duration  </a></li>
+                </ul>
+              </div>
+            </div>
+
+            <h2 id="how_can" class="mb-4">YouTube Channel analytics explained in great detail </h2>
+            <h3>How can I see channel analytics in YouTube?  </h3>
+            <img src="" data-src="../assets/blogs/youtube-analytics/2-How-to-acess.webp" class="img-fluid mt-3 mb-3 lazyload" alt="How can I see channel analytics in YouTube">
+            <p><strong>Step 1-</strong> Sign into your YouTube account and head to YouTube Studio</p>
+            <p><strong>Step 2-</strong> Select Analytics from the left-hand side menu of Channel Dashboard</p>
+            <p><strong>Step 3-</strong> Now select the duration for which you would like to see insights and get started! </p>
+            <p><strong>Step 4-</strong> Once you land on YouTube channel analytics, you will see the following: </p>
+            <ul>
+              <li>Overview</li>
+              <li>Reach</li>
+              <li>Engagement</li>
+              <li>Audience</li>
+              <li>Revenue</li>
+            </ul>
+
+            <div class="text-center blog-common-btn mb-4">
+              <a href="/" class="btn btn-danger">Buy Youtube Subscribers</a>
+              <a href="/buy-instagram-followers.html" class="btn btn-info">Buy Instagram Followers</a>
+            </div>
+
+            <p>You can switch between these categories and explore the different metrics Youtube allows you to track! </p>
+            <p><strong>Step 5-</strong> Now if you look towards the top right corner, you will find the option of Advanced Mode. From here you can get a much more detailed report of your video metrics. </p>
+            <p><strong>Step 6-</strong> From Advanced Mode, you can head to Compare To (again, in the top right corner). This allows you to compare your performance of your YouTube channel year per year and much more. </p>
+            <p>Once you explore all the metrics YouTube has to offer to be tracked, it is only natural to feel a tad overwhelmed and confused as to what metrics should be tracked and what those Youtube metrics entail for the performance of your YouTube channel. </p>
+            <p>Keep reading as I breakdown the important metrics you should definitely be tracking in your youtube studio analytics… </p>
+ 
+            <h2 class="mb-4">What metrics should I track to measure my progress? </h2>
+
+            <h3 id="watch">Watch Time </h3>
+            <img src="" data-src="../assets/blogs/youtube-analytics/3-Watchtime.webp" class="img-fluid mt-3 mb-3 lazyload" alt="Youtube Watch Time">
+            <p>This youtube analysis metric shows the total duration (in hours) for which your videos have been watched. This metric shows the cumulative figure. This metric helps you understand whether you audience is actually interested in watching your content or not. Watch time helps you decide which topics are worth making more videos with respect to your audience interests. More watch time definitely means that your viewers are loving your content and hence you will be an informed decision maker that which are those ‘cool topics’ on which you should be making videos. This metric is crucial when it comes to measuring engagement on your Youtube channel as well as your channel ranking in SERPs. </p>
+
+            <h3 id="subscribers">Subscribers </h3>
+            <img src="" data-src="../assets/blogs/youtube-analytics/4-Youtube-Subscribers.webp" class="img-fluid mt-3 mb-3 lazyload" alt="Increase Youtube Subscribers">
+            <p>This is yet another crucial metric to determine your overall channel growth. By selecting a particular period (for example, last 28 days), you will be able to see how many subscribers your YouTube channel has gained or lost in that period. You should analyse your activity and videos topic during this period as it helps you understand what kind of content is making people subscribe / unsubscribe to your channel. </p>
+
+            <h3 id="views">Views </h3>
+            <img src="" data-src="../assets/blogs/youtube-analytics/5-Views.webp" class="img-fluid mt-3 mb-3 lazyload" alt="Increase Youtube Views">
+            <p>This youtube channel analysis metric shows you the total number of times your videos have been watched by viewers, including multiple views from the same viewer. This metric is a great way for you to understand what kind of content viewers is most interested in. Again you can predict the future video topics by analysing your previous video topics that delivered great views in number. Select a duration and analyse whether the views have gone up or not for this prediction.</p>
+
+            <h3 id="unique">Unique viewers </h3>
+            <img src="" data-src="../assets/blogs/youtube-analytics/6-Unique-Viewers.webp" class="img-fluid mt-3 mb-3 lazyload" alt="Increase Unique viewers">
+            <p>Unique viewers are users who have watched your video once or more than once, i.e., generate multiple views. This YouTube analytics tool provides you an insight into the estimated size of your audience. As a powerful YouTuber, you should focus on this metric to maximize the unique viewers. <a href="https://www.realsubscribers.com/blogs/how-to-rank-youtube-videos.html" target="_blank">Youtube SEO</a> techniques can definitely help in this. By utilizing them, your videos will be in more ‘recommended videos’ and therefore chances will be more of acquiring more unique viewers. </p>
+
+            <h3 id="Increase audience retention">Audience Retention </h3>
+            <img src="" data-src="../assets/blogs/youtube-analytics/7-Audience-Retention.webp" class="img-fluid mt-3 mb-3 lazyload" alt="Audience Retention">
+            <p>Audience Retention is the fraction of duration for which your viewers are watching the video out of total duration of the video. Under this metric, you will find Absolute Audience Retention and Relative Audience Retention. This metric helps you understand when and what aspects make a viewer opt out of your video. To increase your viewer’s audience retention, you can use pattern interrupts, some interesting facts, some lighting, camera angle changes and something to maintain the viewer’s interest.  </p>
+
+            <h3 id="demo">Demographics  </h3>
+            <img src="" data-src="../assets/blogs/youtube-analytics/8-Demographics.webp" class="img-fluid mt-3 mb-3 lazyload" alt="Youtube Demographics">
+            <p>This metric gives you important insights into the age, gender and location of your audience. This helps you curate more audience- oriented content on your channel. After analysing the age, gender and location, you will be informed about what to deliver in the future. Thus, this becomes a key metric in shaping your content strategy and attract more such audience towards your Youtube channel.</p>
+
+            <h3 id="impressions">Impressions Click Through Rate </h3>
+            <img src="" data-src="../assets/blogs/youtube-analytics/9-Impression-Click.webp" class="img-fluid mt-3 mb-3 lazyload" alt="Impressions Click Through Rate">
+            <p>Impression means when a viewer sees your video thumbnail. Impression click through rate indicates the percentage of viewers who are clicking on your video after seeing the thumbnail. Thus, this metric helps you understand how effective your <a href="https://www.realsubscribers.com/blogs/how-to-create-youtube-thumbnail.html" target="_blank">Youtube thumbnail</a> and video title are. If your impression click through rate is high, however, you audience retention is low, this indicates that your thumbnail and video title is misleading. YouTube algorithm can consider this as clickbait. You should always avoid clickbait.</p>
+
+            <div class="text-center blog-common-btn mb-4">
+              <a href="/" class="btn btn-danger">Buy Youtube Subscribers</a>
+              <a href="/buy-instagram-followers.html" class="btn btn-info">Buy Instagram Followers</a>
+            </div>
+
+            <h3 id="engagement">Engagement Metrics- Likes / Dislikes, Shares, Comments </h3>
+            <img src="" data-src="../assets/blogs/youtube-analytics/10-Engagement-Metrices.webp" class="img-fluid mt-3 mb-3 lazyload" alt="Engagement Metrics">
+            <p>Likes / Dislikes provide an easy way for the viewer to express how they felt about a video. </p>
+            <p>Comments indicate that a video resonated with the viewer so much that they decided to share their opinion. 
+              Shares indicate that a viewer loved a video so much they are ready to have it on their behalf. Thereby, becoming a social proof for that Youtube channel.</p>
+            <p>These metrics help you understand the overall engagement on your channel. Moreover, likes / dislikes, comments and shares on a particular video help you understand the performance in the clearest light. Interact with your audience by acknowledging them. </p>  
+
+            <h3 id="traffic">Traffic Sources </h3>
+            <img src="" data-src="../assets/blogs/youtube-analytics/11-Traffic-Sources.webp" class="img-fluid mt-3 mb-3 lazyload" alt="Youtube Traffic Sources">
+            <p>YouTube Traffic Sources shows you how your viewers came across your video – did they find in Youtube SERPs or Google SERPs, or did they find it in embedded in a blog post, or from social media? When you understand from where your majority of audience is coming, you can curate a SEO strategy accordingly. </p>
+
+            <h3 id="average">Average View Duration  </h3>
+            <p>The average view duration youtube metric indicates the average time viewers spent while watching your video / videos. It is calculated by dividing total watch time by total views. This metric helps you understand how well your video is able to engross a viewer in it. A higher average result in better ranking in the SERPs. </p>
+            <p>Once you understand what these metrics entail for the performance of your channel, you are all set to go! 
+              To conclude this blog, find what is common among your best performing videos, and stick to those practices. Similarly, find out what is common among your worst performing videos, and make sure you don’t repeat these practices again. 
+              </p>
+
+            <p><strong>Bonus-</strong> Youtube analytics allows creators to measure metrics in different time periods (for example, last 28 days) and after latest update, it allows to measure metrics for the past 24 hours. This proves to be a valuable update as it allows you to check the performance of a live stream or a recently published video.</p>  
+            <p>I hope you found this as an enlightening blog on how to analyse YouTube Analytics. </p>
+
+            <p><strong>Feel free to share. </strong></p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="footer-wrapper"></div>
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script defer src="../js/loadComponent.js"></script>
+  <script defer src="../js/lazysizes.min.js"></script>
+
+  <a href="http://www.copyscape.com/"><img src="//banners.copyscape.com/img/copyscape-banner-black-160x56.png" width="160" height="56" border="0" alt="Protected by Copyscape" title="Protected by Copyscape - Do not copy content from this page." /></a>
+
+</body>
+
+</html>

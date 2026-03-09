@@ -1,0 +1,53 @@
+
+.news-banner {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-top: 5.5vw;
+}
+
+main {
+    padding: 3vw 0vw;
+}
+main h1 {
+    font-size: 2.2vw;
+    color: #444;
+    font-weight: 600;
+}
+main a {
+    display: inline-block;
+    margin: 1vw 0vw;
+    font-weight: 600;
+}
+main img {
+    display: inline-block;
+    margin: 1vw 0vw;
+}
+
+@media only screen and (max-width: 480px) {
+    .news-banner {
+        margin-top: 19vw;
+    }
+    main {
+        padding: 8vw 0vw;
+    }
+    main h1 {
+        font-size: 7vw;
+    }
+    main a {
+        margin-bottom: 7vw;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .news-banner {
+        margin-top: 10vw;
+    }
+    main h1 {
+        font-size: 4.4vw;
+    }
+    main a {
+        margin-bottom: 3vw;
+    }
+}
+
+
+

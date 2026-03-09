@@ -1,0 +1,61 @@
+.youtube-consulting-sessions-banner {
+    margin-top: 90px !important;
+}
+
+.card {
+    background-color: rgb(242, 242, 242);
+    border-color: rgb(242, 242, 242);
+    border-width: 1px;
+}
+
+.session-title {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: rgb(102, 102, 102);
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.session-description {
+    font-size: 17px;
+}
+
+.read-more {
+    text-decoration: underline;
+    color: rgb(102, 102, 102);
+    font-size: 17px;
+    display: block;
+    text-align: center;
+}
+
+.session-price {
+    color: rgb(102, 102, 102);
+    font-size: 20px;
+}
+
+.btn-info {
+    display: flex;
+    justify-content: center;
+}
+
+ /* Small devices (landscape phones, 544px and up) */
+
+ @media (max-width: 543px) {  
+    .class-name {font-size: 16px;}
+  }
+
+ @media (min-width: 544px) {  
+    .class-name {font-size: 16px;}
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {  
+    .class-name {font-size: 30px;}
+  }
+
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) { 
+    .class-name {font-size: 40px;}
+  }

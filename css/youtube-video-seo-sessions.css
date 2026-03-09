@@ -1,0 +1,486 @@
+
+/* banner */
+main {
+    background: url('../assets/youtube-consultation-sessions/youtube-video-seo-session/yt-video-seo-banner.webp') no-repeat;
+    height: 560px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin-top: 89px;
+}
+main .main-caption {
+    position: absolute;
+    top: 33%;
+    left: 47%;
+    right: 10%;
+}
+main .main-caption h1 {
+    font-size: 34px;
+    color: #fff;
+    padding: 25px 85px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 4px solid #fff;
+    line-height: 48px;
+}
+.banner-border {
+    padding: 11px 0px;
+    margin-top: -23px;
+}
+.banner-border-one {
+    background-color: #153752;
+    float: left;
+    padding: 12px 0px;
+    width: 30%;
+}
+.banner-border-two {
+    background-color: #a3dcef;
+    width: 40%;
+    float: left;
+    padding: 12px 0px;
+}
+.banner-border-three {
+    background-color: #153752;
+    width: 30%;
+    float: left;
+    padding: 12px 0px;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    main {
+        background: url('../assets/youtube-consultation-sessions/youtube-video-seo-session/yt-video-seo-banner-320.webp') no-repeat;
+        margin-top: 0px;
+    }
+    main .main-caption {
+        position: absolute;
+        top: 64%;
+        left: 13px;
+        right: 13px;
+    }
+    main .main-caption h1 {
+        font-size: 20px;
+        padding: 10px 10px;
+        line-height: 28px;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    main {
+        background: url('../assets/youtube-consultation-sessions/youtube-video-seo-session/yt-video-seo-banner-375.webp') no-repeat;
+        margin-top: 0px;
+    }
+    main .main-caption {
+        position: absolute;
+        top: 69%;
+        left: 13px;
+        right: 13px;
+    }
+    main .main-caption h1 {
+        font-size: 20px;
+        padding: 10px 10px;
+        line-height: 28px;
+    }
+}
+@media (min-width: 414px) and (max-width: 568px) {
+    main {
+        background: url('../assets/youtube-consultation-sessions/youtube-video-seo-session/yt-video-seo-banner-414.webp') no-repeat;
+        margin-top: 0px;
+    }
+    main .main-caption {
+        position: absolute;
+        top: 71%;
+        left: 13px;
+        right: 13px;
+    }
+    main .main-caption h1 {
+        font-size: 20px;
+        padding: 10px 10px;
+        line-height: 28px;
+    }
+}
+/* //banner */
+
+
+/* main text */
+.main-text {
+    padding: 50px 0px;
+    position: relative;
+}
+.main-text .main-text-heading {
+    background-color: #fff;
+    padding: 18px 30px;
+    width: 75%;
+    border-radius: 18px;
+    border: 1px solid #9c9c9c;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+.main-text .main-text-heading h2 {
+    font-size: 21px;
+    color: rgb(131, 131, 131);
+    text-transform: uppercase;
+}
+.main-text .main-text-heading h2::after {
+    content: '';
+    display: inline-block;
+    height: 1px;
+    width: 93%;
+    position: absolute;
+    top: 41%;
+    left: 3%;
+    right: 12%;
+    background-color: #c7c7c7;
+}
+.main-text .btn-danger {
+    background-color: #c82333;
+    border-color: #c82333;
+    font-weight: 600;
+    margin-top: 23px;
+    text-transform: uppercase;
+    border-radius: 100px;
+    padding: 12px 22px 14px 12px;
+    color: #fff;
+}
+.main-text .btn-danger:hover {
+    background-color: #ad1424;
+    color: #fff;
+    border-color: #ad1424;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .main-text .main-text-heading {
+        padding: 13px 10px;
+    }
+    .main-text .main-text-heading h2 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .main-text .main-text-heading h2::after {
+        top: 46%;
+    }
+    .main-text .btn-danger {
+        font-size: 14px;
+        font-weight: 500;
+        padding: 10px 18px;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    .main-text .main-text-heading {
+        padding: 13px 10px;
+    }
+    .main-text .main-text-heading h2 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .main-text .main-text-heading h2::after {
+        top: 46%;
+    }
+    .main-text .btn-danger {
+        font-size: 14px;
+        font-weight: 500;
+        padding: 10px 18px;
+    }
+}
+@media (min-width: 414px) and (max-width: 568px) {
+    .main-text .main-text-heading {
+        padding: 13px 10px;
+    }
+    .main-text .main-text-heading h2 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .main-text .main-text-heading h2::after {
+        top: 46%;
+    }
+    .main-text .btn-danger {
+        font-size: 14px;
+        font-weight: 500;
+        padding: 10px 18px;
+    }
+}
+/* main text */
+
+/* imp text */
+.imp-text {
+    padding: 50px 0px;
+}
+.imp-text .imp-text-grid {
+    background-color: #395173; 
+    border-radius: 10px; 
+    margin: 43px 0px 45px -100px;
+    padding: 45px 0px;
+}
+.imp-text .imp-text-grid p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0px 22px;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .imp-text .imp-text-grid {
+        margin: 0px;
+        margin-top: 10px;
+    }
+    .imp-text p {
+        padding: 28px 10px;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    .imp-text .imp-text-grid {
+        margin: 0px;
+        margin-top: 10px;
+    }
+    .imp-text p {
+        padding: 28px 10px;
+    }
+}
+@media (min-width: 414px) and (max-width: 568px) {
+    .imp-text .imp-text-grid {
+        margin: 0px;
+        margin-top: 10px;
+    }
+    .imp-text p {
+        padding: 28px 10px;
+    }
+}
+/* imp text */
+
+/* our online youtube */
+.our-online-youtube {
+    padding: 50px 0px;
+}
+.our-online-youtube h2 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37px;
+    text-transform: uppercase;
+    border-top: 1px solid rgb(131, 131, 131);
+    border-bottom: 1px solid rgb(131, 131, 131);
+    padding: 20px 0px;
+    color: rgb(68, 68, 68);
+    text-align: center;
+}
+.our-online-youtube-grid {
+    padding: 4px 4px;
+    border: 1px solid rgb(185, 185, 185);
+    text-align: center;
+    min-height: 476px;
+}
+.our-online-youtube .our-online-youtube-grid h3 {
+    font-size: 19px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #395173;
+}
+.our-online-youtube .our-online-youtube-grid p {
+    color: #777;
+    font-weight: 600;
+    padding-top: 7px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.our-online-youtube .col-md-4, .col-lg-4 {
+    margin-bottom: 30px;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .our-online-youtube h2 {
+        font-size: 20px;
+        line-height: 29px;
+        padding: 15px 0px;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    .our-online-youtube h2 {
+        font-size: 20px;
+        line-height: 29px;
+        padding: 15px 0px;
+    }
+}
+@media (min-width: 414px) and (max-width: 568px) {
+    .our-online-youtube h2 {
+        font-size: 22px;
+        line-height: 31px;
+        padding: 15px 0px;
+    }
+}
+/* //our online youtube */
+
+/* YouTube SEO strategy  */
+.youtube-seo-strategy {
+    padding: 50px 0px;
+    background-color: #edf9fe;
+} 
+.youtube-seo-strategy h2 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37px;
+    text-transform: uppercase;
+    border-top: 1px solid rgb(131, 131, 131);
+    border-bottom: 1px solid rgb(131, 131, 131);
+    padding: 20px 0px;
+    color: rgb(68, 68, 68);
+    text-align: center;
+}
+.youtube-seo-strategy .youtube-seo-strategy-grid {
+    padding: 93px 0px;
+}
+.youtube-seo-strategy .youtube-seo-strategy-grid h3 {
+    color: #da7c7b;
+    padding: 0;
+    line-height: 30px;
+    font-weight: 700;
+    font-size: 21px;
+    text-transform: capitalize;
+}
+.youtube-seo-strategy .youtube-seo-strategy-grid p {
+    color: #3b516d;
+    font-weight: 600;
+    margin: 0;
+    font-size: 17px;
+    padding: 0;
+    margin-top: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .youtube-seo-strategy h2 {
+        font-size: 20px;
+        line-height: 29px;
+    }
+    .youtube-seo-strategy .youtube-seo-strategy-grid {
+        padding: 15px 0px;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    .youtube-seo-strategy h2 {
+        font-size: 20px;
+        line-height: 29px;
+    }
+    .youtube-seo-strategy .youtube-seo-strategy-grid {
+        padding: 15px 0px;
+    }
+}
+@media (min-width: 414px) and (max-width: 568px) {
+    .youtube-seo-strategy h2 {
+        font-size: 22px;
+        line-height: 31px;
+    }
+    .youtube-seo-strategy .youtube-seo-strategy-grid {
+        padding: 15px 0px;
+    }
+}
+/* //YouTube SEO strategy  */
+
+/* video seo guidance */
+.video-seo-guidance {
+    padding: 50px 0px;
+}
+.video-seo-guidance h2 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37px;
+    text-transform: uppercase;
+    border-top: 1px solid rgb(131, 131, 131);
+    border-bottom: 1px solid rgb(131, 131, 131);
+    padding: 20px 0px;
+    color: rgb(68, 68, 68);
+    text-align: center;
+}
+.video-seo-guidance .video-seo-guidance-grid {
+    text-align: center;
+}
+.video-seo-guidance .video-seo-guidance-grid h3 {
+    padding: 10px 0px;
+    font-size: 23px;
+}
+.video-seo-guidance .video-seo-guidance-grid p {
+    border: 1px solid rgb(185, 185, 185);
+    padding: 18px 18px;
+    color: #686868;
+    min-height: 186px;
+    font-weight: 600;
+}
+.b-right {
+    border-right: 1px solid rgb(180, 180, 180);
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .video-seo-guidance h2 {
+        font-size: 21px;
+        line-height: 31px;
+        padding: 15px 0px;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    .video-seo-guidance h2 {
+        font-size: 21px;
+        line-height: 31px;
+        padding: 15px 0px;
+    }
+}
+@media (min-width: 414px) and (max-width: 568px) {
+    .video-seo-guidance h2 {
+        font-size: 22px;
+        line-height: 32px;
+        padding: 15px 0px;
+    }
+}
+/* //video seo guidance */
+
+/* last line */
+.last-line {
+    padding: 20px 0px;
+    border-radius: 5px;
+}
+.last-line p {
+    font-weight: 700;
+    color: #395173;
+    text-transform: uppercase;
+    font-size: 22px;
+    text-align: center;
+}
+.last-line .btn-danger {
+    padding: 12px 22px 14px 22px;
+    border-radius: 100px;
+    font-weight: 600;
+    background-color: #c82333;
+    border-color: #c82333;
+    color: #fff;
+}
+.last-line .btn-danger:hover {
+    background-color: #ad1424;
+    color: #fff;
+    border-color: #ad1424;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .last-line p {
+        font-size: 20px;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    .last-line p {
+        font-size: 20px;
+    }
+}
+@media (min-width: 414px) and (max-width: 568px) {
+    .last-line p {
+        font-size: 22px;
+    }
+}
+/* //last line */
+
+@media (max-width: 674px) {
+    .container-fluid {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    body {
+        overflow-x: hidden !important;
+    }
+    html {
+        overflow-x: hidden !important;
+    }
+}

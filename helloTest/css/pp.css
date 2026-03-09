@@ -1,0 +1,36 @@
+.privacy-policy-wrapper {
+    animation: fadein 2s;
+}
+    .privacy-policy {
+        padding: 60px 0px;
+    }
+    .privacy-policy h1 {
+        color: #133852;
+        margin-bottom: 20px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .privacy-policy p {
+        color: #757575;
+        text-align: justify;
+        line-height: 31px;
+    }
+    .privacy-policy h3 {
+        text-align: left;
+    }
+    .privacy-policy ul {
+        text-align: justify;
+    }
+    .privacy-policy ul li {
+        color: #757575;
+        line-height: 31px;
+        text-align: justify;
+    }
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

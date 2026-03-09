@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-143978554-4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+      gtag('config', 'UA-143978554-4')
+    </script>
+    <meta name="robots" content="noindex, nofollow" <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Make payment</title>
+    <meta name="description" content="make payment in RS" />
+    <link rel="icon" type="img/ico" href="../assets/RS-favicon.ico" />
+    <link
+      rel="canonical"
+      href="https://www.realsubscribers.com/make-payment.html"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/payment-page.css" />
+
+    <link
+      rel="preload"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      onload="this.rel='stylesheet'"
+    />
+
+    <!-- Facebook Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments)
+        }
+        if (!f._fbq) f._fbq = n
+        n.push = n
+        n.loaded = !0
+        n.version = '2.0'
+        n.queue = []
+        t = b.createElement(e)
+        t.async = !0
+        t.src = v
+        s = b.getElementsByTagName(e)[0]
+        s.parentNode.insertBefore(t, s)
+      })(
+        window,
+        document,
+        'script',
+        'https://connect.facebook.net/en_US/fbevents.js'
+      )
+      fbq('init', '264216665191828')
+      fbq('track', 'PageView')
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=264216665191828&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+    <!-- Global site tag (gtag.js) - Google Ads: 397302622 -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=AW-397302622"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+
+      gtag('config', 'AW-397302622')
+    </script>
+
+  </head>
+
+  <body>
+    <div id="header-wrapper"></div>
+
+    <main class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-12 text-center">
+            <h1 class="payment-msg">
+              Do not refresh or back while making payment, it will take few
+              moments for transaction...
+            </h1>
+          </div>
+        </div>
+        <div class="row mt-5 justify-content-center">
+          <div class="col-md-10">
+            <div class="card">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="dark-gray-bg rs-logo" style="height: 100%">
+                    <img
+                      src="./assets/logo-white.png"
+                      class="img-fluid"
+                      alt=""
+                    />
+                    <h2>Order Summary</h2>
+                    <hr />
+                    <ul>
+                      <li>
+                        Service Name:
+                        <span id="serviceName">Buy Youtube Subscribers</span>
+                      </li>
+                      <li>
+                        Quantity: <span id="quantity">1000 Subscribers</span>
+                      </li>
+                      <li>Total Price: <span id="amount">100$</span></li>
+                      <li>Discount: <span id="discount">-40$</span></li>
+                      <li>Total Payable Amount: <span id="total">$60</span></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="py-4 paypal-logo">
+                    <img
+                      src="./assets/make-payment/paypal-logo.webp"
+                      class="img-fluid"
+                      alt=""
+                    />
+                    <ul class="payment-btn">
+                      <li><div id="paypal-button"></div></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 col-lg-12 mt-4">
+            <div class="payment-photo text-center">
+              <img
+                src="./assets/make-payment/master-card.webp"
+                class="img-fluid"
+                alt=""
+              />
+              <img
+                src="./assets/make-payment/visa-card.webp"
+                class="img-fluid"
+                alt=""
+              />
+              <img
+                src="./assets/make-payment/paypal-down.webp"
+                class="img-fluid"
+                alt=""
+              />
+              <img
+                src="./assets/make-payment/ssl.webp"
+                class="img-fluid"
+                alt=""
+              />
+              <img
+                src="./assets/make-payment/moneyback.webp"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div id="footer-wrapper"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="./js/loadComponent.js"></script>
+    <script async src="./js/axios.min.js"></script>
+    <script src="https://www.paypal.com/sdk/js?client-id=AU7gMvziV6MAqN30MPxGwjkhywR3WxExH7mY_IAxvJW5CE5dSXw7fg7qc45cynTdqz3bxTug_r5G5IOg&currency=GBP"></script>
+    <!-- <script
+      src="https://www.paypal.com/sdk/js?client-id=AWFCplfS7QjGwJYkEXgsoJTXDUipFjSc7Ga0WM7pgCX5wHNzPP-FGlJUHa_3K-88Vn2x_qmGk4BV82D8&currency=GBP"
+    ></script> -->
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-analytics.js"></script>
+    <script src="../js/firebase-config.js"></script>
+    <script src="./js/lazysizes.min.js"></script>
+    <script src="./js/make-payment-uk.js"></script>
+    <script src="/js/lazysizes.min.js"></script>
+  <a href="http://www.copyscape.com/"><img src="//banners.copyscape.com/img/copyscape-banner-black-160x56.png" width="160" height="56" border="0" alt="Protected by Copyscape" title="Protected by Copyscape - Do not copy content from this page." /></a>
+  </body>
+</html>
