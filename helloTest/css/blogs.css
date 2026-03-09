@@ -1,0 +1,94 @@
+body {
+  font-family: "Calibri" !important;
+}
+
+.jumbotron {
+  background: url("../assets/blogs/blog-banner.webp") no-repeat;
+  height: 500px;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  margin-top: 4vw;
+}
+.jumbotron .jumbotron-text {
+  position: absolute;
+  top: 8vw;
+  left: 3vw;
+  max-width: 38%;
+}
+.jumbotron .jumbotron-text h1 {
+  font-size: 3.5vw;
+  font-weight: 500;
+}
+.jumbotron .jumbotron-text p {
+  font-size: 1.3vw;
+  margin-top: 1.2vw;
+}
+
+.blog-page .card {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.02);
+  min-height: 31vw;
+  width: 100%;
+  margin-bottom: 2vw;
+}
+
+.blog-page .card p {
+  color: #6f6f6f;
+  font-size: 17px;
+  font-weight: 500;
+}
+.blog-page .card-body > a {
+  font-size: 1.1vw;
+  display: inline-block;
+  color: #444;
+}
+.blog-page .card .read-more {
+  color: #2678f1;
+}
+
+@media only screen and (max-width: 480px) {
+  .jumbotron {
+    background: url("../assets/blogs/blog-banner-480.webp");
+    height: 550px;
+  }
+  .jumbotron .jumbotron-text {
+    max-width: 100%;
+    top: 94vw;
+  }
+  .jumbotron .jumbotron-text h1 {
+    font-size: 8.5vw;
+  }
+  .jumbotron .jumbotron-text p {
+      font-size: 4.5vw;
+  }
+  .blog-page .card {
+    margin-bottom: 6vw;
+  }
+  .blog-page .card-body > a {
+    font-size: 4.2vw;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .jumbotron {
+        background: url('../assets/blogs/blog-banner-1024.webp');
+        height: 500px;
+    }
+    .jumbotron .jumbotron-text {
+        position: absolute;
+        top: 15vw;
+        max-width: 44%;
+    }
+    .jumbotron .jumbotron-text h1 {
+        font-size: 5vw;
+    }
+    .jumbotron .jumbotron-text p {
+        font-size: 3vw;
+    }
+  .blog-page .card-body > a {
+    font-size: 1.8vw;
+  }
+  .blog-page .card {
+    min-height: 64vw;
+    margin-bottom: 3vw;
+  }
+}

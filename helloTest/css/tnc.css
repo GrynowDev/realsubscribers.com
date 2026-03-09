@@ -1,0 +1,44 @@
+.terms-and-conditions-wrapper {
+    animation: fadein 2s;
+}
+
+.terms-conditions {
+    padding: 60px 0px;
+}
+
+.terms-conditions h1 {
+    color: #133852;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.terms-conditions p {
+    color: #757575;
+    text-align: left;
+    line-height: 31px;
+}
+
+.terms-conditions h3 {
+    text-align: justify;
+}
+
+.terms-conditions ul {
+    text-align: justify;
+}
+
+.terms-conditions ul li {
+    color: #757575;
+    line-height: 31px;
+    margin-bottom: 8px;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

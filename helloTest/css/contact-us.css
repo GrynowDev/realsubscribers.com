@@ -1,0 +1,426 @@
+
+/* .navbar-light {
+  background-color: #133852;
+}
+.navbar-light .navbar-nav .nav-link {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff !important;
+  text-transform: uppercase;
+}
+.navbar-brand img {
+  width: 11vw;
+}
+.navbar-light .btn-danger {
+  border-radius: 100px;
+  font-weight: 700;
+  padding: 7px 11px 9px 7px;
+  text-transform: uppercase;
+  font-size: 14px;
+} */
+
+.navbar-light {
+  background-color: #133852;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fff !important;
+}
+.navbar-brand img {
+  width: 11vw;
+}
+.navbar-light .btn-danger {
+  border-radius: 100px;
+  font-weight: 700;
+  padding: 0.4vw 1vw 2.6vw 1vw;
+  text-transform: uppercase;
+  font-size: 0.8vw;
+}
+.dropdown .btn-secondary:hover {
+  color: #133852;
+  background-color: inherit;
+}
+.dropdown {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1vw;
+  padding: 0.5vw 0.7vw;
+}
+.dropdown .dropdown-toggle:hover {
+  text-decoration: none;
+}
+.dropdown .dropdown-toggle {
+  color: #fff;
+}
+.dropdown .dropdown-menu {
+  background-color: #fff;
+  box-shadow: 8px 2px 30px 0px rgba(46,61,73,0.15);
+  margin-top: 0.5vw;
+  border: none;
+  padding: 0;
+}
+.b-bottom {
+  border-bottom: none !important;
+}
+.dropdown .dropdown-item {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.9vw;
+  color: #133852;
+  padding: 0.8vw 0.8vw 0.8vw 1vw;
+}
+.dropdown .dropdown-item:hover {
+  background-color: inherit;
+  display: block;
+}
+.navbar-light .dropdown-menu li {
+  margin-bottom: 0px !important;
+  border-bottom: 1px solid #c7c7c7;
+}
+.navbar-light .dropdown-menu li a:hover {
+  background-color: #b8b8b8;
+}
+
+
+.jumbotron {
+  background: url("../assets/contact/contact-bg.webp") no-repeat;
+  height: 50vh;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+.jumbotron .jumbotron-caption {
+  position: absolute;
+  top: 18vw;
+  left: 45vw;
+  right: 40vw;
+}
+.jumbotron .jumbotron-caption p {
+  font-weight: 600;
+  color: #fff;
+  font-size: 1.5vw;
+  text-transform: uppercase;
+}
+
+main {
+  padding: 3vw 0vw;
+}
+main h1 {
+  font-size: 2.3vw;
+  color: #133852;
+  font-weight: 600;
+  text-align: center;
+}
+main h1 span {
+  color: #e22b27;
+}
+main h1 i {
+  font-style: normal;
+  font-weight: 700;
+  color: #133852;
+}
+main h2 {
+  font-size: 1.5vw;
+  padding: 1vw 0vw 2vw 0vw;
+  text-align: center;
+}
+main h2::after {
+  display: inline-block;
+  /* content: ''; */
+  height: 4px;
+  width: 10vw;
+  background-color: #e22b27;
+}
+main .btn-primary {
+  border-radius: 100px;
+    font-weight: 700;
+    padding: 0.7vw 2vw 0.8vw 2vw;
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: #be1a17;
+    border-color: #be1a17;
+}
+main ul li {
+  list-style: none;
+  margin-bottom: 1vw;
+}
+main .fa-phone {
+  color: #133852;
+  font-weight: 600;
+  font-size: 1vw;
+  margin-right: 0.8vw;
+}
+main .fa-whatsapp {
+  color: #133852;
+  font-weight: 600;
+  font-size: 1vw;
+  margin-right: 0.8vw;
+}
+main .fa-envelope {
+  color: #133852;
+  font-weight: 600;
+  font-size: 1vw;
+  margin-right: 0.8vw;
+}
+
+.contact p{
+  line-height: 1.6;
+}
+span{
+  font-weight: 700;
+}
+.footer .yt-services li {
+  padding: 5px;
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+}
+.footer .insta-services li {
+  padding: 5px;
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+}
+.footer .legal li {
+  padding: 5px;
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+}
+
+.footer .footer-social p {
+  font-size: 20px;
+  text-decoration: underline;
+}
+.footer .footer-social ul {
+  text-align: center;
+}
+.footer .footer-social ul li {
+  list-style: none;
+  display: inline-block !important;
+  color: #17a20d;
+}
+.footer .footer-social .fa {
+  color: #fff;
+  background-color: #29547c;
+  padding: 12px 14px 12px 13px;
+  border-radius: 100px;
+  margin: 8px;
+}
+.footer .footer-social .fa-facebook {
+  color: #fff;
+  background-color: #29547c;
+  padding: 12px 15px 12px 15px;
+  border-radius: 100px;
+}
+.footer ul li a {
+  font-size: 18px;
+}
+
+
+@media only screen and (max-width: 480px) {
+  
+  .navbar-light .fa-bars {
+    color: #fff;
+  }
+  .navbar-brand img {
+    width: 37vw;
+  }
+  #navbarContent {
+    position: absolute;
+    top: 17vw;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #133852;
+  }
+  .navbar-light .navbar-nav {
+    margin-left: 3vw;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    margin-left: 0vw;
+    padding: 1.4vw 0vw;
+    font-size: 3.6vw;
+  }
+  .dropdown {
+    margin-left: 0vw;
+    font-size: 3.6vw;
+    padding-left: 0;
+    margin: 1vw 0vw;
+  }
+  .dropdown .dropdown-item {
+    padding: 2.8vw 0.8vw 2.8vw 1vw;
+    font-size: 2.9vw;
+  }
+  .navbar-light .btn-danger {
+    margin: 5vw 0vw !important;
+    margin-left: 1vw;
+    padding: 1.8vw 2vw 2vw 2vw;
+    font-size: 3.2vw;
+  }
+  .jumbotron .jumbotron-caption {
+    position: absolute;
+    top: 55vw;
+    left: 33vw;
+    right: 20vw;
+  } 
+  .jumbotron .jumbotron-caption p {
+    font-size: 6vw;
+  }
+  .navbar-light .navbar-nav {
+    margin-left: 7vw !important;
+  } 
+  main h1 {
+    font-size: 6vw;
+    line-height: 9vw;
+  }
+  main h2 {
+    padding: 1vw 0vw 8vw 0vw;
+    font-size: 4.3vw;
+  }
+  main ul li {
+    margin-bottom: 5vw;
+  }
+  main .fa-phone {
+    margin-right: 3vw;
+    font-size: 5vw;
+  }
+  main .fa-whatsapp {
+    margin-right: 3vw;
+    font-size: 5vw;
+  }
+  main .fa-envelope {
+    margin-right: 3vw;
+    font-size: 5vw;
+  }
+  main .btn-primary {
+    padding: 1.7vw 4vw 2vw 4vw;
+  }
+  main .contact-details {
+    margin-top: 4vw;
+  }
+}  
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .navbar-light .fa-bars {
+    color: #fff !important;
+  }
+  .navbar-brand img {
+    width: 20vw;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 1.5vw;
+    margin-left: 3vw;
+  }
+  .dropdown {
+    font-size: 1.5vw;
+    margin-left: 3vw;
+  }
+  .dropdown .dropdown-item {
+    font-size: 1.5vw;
+    padding: 1.8vw 0.8vw 1.8vw 1vw;
+  }
+  .navbar-light .btn-danger {
+    padding: 1.2vw 1vw 1.6vw 1vw;
+    font-size: 1.5vw;
+    margin: 2vw 0vw !important;
+    margin-left: 3vw !important;
+  }
+  .jumbotron .jumbotron-caption {
+    left: 40vw;
+    top: 50vw;
+  }
+  .jumbotron .jumbotron-caption p {
+    font-size: 3vw;
+  }
+  main h1 {
+    font-size: 3vw;
+  }
+  main h2 {
+    font-size: 2.4vw;
+  }
+}  
+@media only screen and (min-width:  1024px) and (max-width: 1200px) {
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 1.3vw;
+    margin-left: 0vw;
+  }
+  .navbar-light form .btn-danger {
+    padding: 0.7vw 2vw 2vw 2vw;
+    font-size: 1.4vw;
+  }
+  .jumbotron h1 {
+    font-size: 4vw;
+    line-height: 5.6vw;
+    top: 4vw;
+    max-width: 100%;
+  }
+  .jumbotron p {
+    top: 25vw;
+  }
+  .jumbotron .banner-points {
+    top: 33vw;
+  }
+}
+
+
+/* @media (max-width: 768px) {
+    #navbarContent {
+        position: absolute;
+        z-index: 9999;
+        top: 60px;
+        left: 0px;
+        width: 100%;
+        background: #0c263b;
+        padding: 0px 12px;
+    }
+    #navbarContent .btn-info {
+        margin-bottom: 16px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #fff !important;
+        margin: 0px;
+    }  
+    .common-cta-btn .btn-danger {
+        margin-bottom: 10px;
+    } 
+    .common-cta-btn .btn-info {
+        margin-bottom: 20px;
+    }
+    .navbar-light .btn-danger {
+        margin-top: 10px;
+        margin-bottom: 22px;
+    }
+} */
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+/* .sending {
+    position: relative;
+    bottom: 2px;
+    left: 6px;
+}
+.bg-theme-color {
+    background-color: #0c263b !important;
+}
+.select-sub {
+    width: 94% !important;
+}
+.fa-info-circle {
+    font-size: 25px !important;
+} */

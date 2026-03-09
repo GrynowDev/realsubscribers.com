@@ -1,0 +1,97 @@
+.card {
+    height: auto;
+    padding-bottom: 25px;
+    border: none;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.10), 0 10px 10px #f2f2f2;
+}
+
+.select-subscribers {
+    height: 90px;
+    background: deepskyblue;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+    text-align: center;
+}
+
+
+.select-subscribers-title {
+    padding-top: 10px;
+}
+
+.select-subscribers-title>strong {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.select-subscribers>.form-group>.form-control {
+    position: relative;
+    bottom: -15px;
+    width: 75%;
+}
+
+.price-value>.currency {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.price-value>.price {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.promo-code-input {
+    padding-left: 40px;
+    padding-right: 0px;
+}
+
+.bg-primary {
+    width: 80% !important;
+    margin-left: 40px !important
+}
+
+.plan-points>strong {
+    font-size: 13px !important;
+}
+
+
+select {
+
+    /* styling */
+    background-color: white;
+    border: thin solid blue;
+    border-radius: 4px;
+    display: inline-block;
+    font: inherit;
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
+    box-shadow: none !important;
+    outline: none !important;
+    /* reset */
+}
+
+
+/* arrows */
+
+select.form-control {
+    font-size: 22px;
+    height: 50px !important;
+    font-weight: bolder;
+}
+
+.loader-wrapper>button {
+    font-size: 20px;
+}
+
+.loader-wrapper {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3000;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100%;
+}

@@ -1,0 +1,156 @@
+.rs-register {
+    animation: fadein 2s;
+}
+    .information-heading-wrapper {
+      border-top: 1px solid #fff;
+      border-bottom: 1px solid #fff;
+      margin-right: 100px !important;
+      padding-top: 6px;
+      padding-bottom: 6px;
+    }
+    .register-form-heading {
+      background: linear-gradient(
+        to right,
+        #133852 0%,
+        #133852 70%,
+        #e22b27 50%,
+        #e22b27 100%
+      );
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+    }
+  
+    .information-content-wrapper {
+      margin-right: 100px;
+    }
+  
+    input[type="checkbox"] {
+      zoom: 1.8 !important;
+      vertical-align: middle;
+    }
+    .tnc {
+      color: #133852;
+      font-weight: 700;
+    }
+  
+    .btn-primary {
+      background-color: #133852 !important;
+      border: none !important;
+      width: 90% !important;
+    }
+  
+    .login {
+      color: #e22b27;
+      font-weight: 600;
+    }
+  
+    .have-an-account {
+      color: #133852;
+      font-weight: 600;
+      display: inline-block;
+      margin-bottom: 60px;
+    }
+  
+    .info {
+      background: url("../assets/Register bg.jpg");
+      background-repeat: no-repeat;
+      background-size: cover !important;
+      background-position: center;
+      background-size: 100% 100%;
+      padding-bottom: 40px;
+    }
+  
+    .bottom-line {
+      height: 2px;
+      width: 150px;
+      background: #133852;
+    }
+    .register-points {
+      margin-top: 25px;
+    }
+    .register-points li::before {
+      font-family: 'FontAwesome';
+      font-weight: normal;
+      content: "\f00c";
+      display: inline-block;
+      padding-right: 8px;
+      font-size: 15px;
+    }
+    .lh-28 {
+      line-height: 28px;
+    }
+    .register-points li {
+      color: #d7d7d7;
+      line-height: 33px;
+      list-style: none;
+    }
+  
+    a {
+      cursor: pointer !important;
+    }
+  
+    .invalid small {
+      color: red;
+    }
+    .invalid input {
+      border: 1px solid red;
+    }
+    
+    h1 {
+      font-size: 24px !important;
+    }
+  
+    @media (max-width: 320px) {
+      .info p {
+        display: table-cell;
+        padding-top: 20px;
+      }
+      .info {
+        margin: 0px 0px;
+      }
+      .register-form-heading {
+        margin-top: 20px;
+      }
+      .have-an-account {
+        display: inline-block;
+        font-size: 14px;
+      }
+    }
+    @media (max-width: 414px) {
+      .info p {
+        display: table-cell;
+        padding-top: 20px;
+      }
+      .info {
+        margin: 0px 0px;
+      }
+      .register-form-heading {
+        margin-top: 20px;
+      }
+    }
+    @media (max-width: 674px) {
+      .info p {
+        display: table-cell;
+        padding-top: 20px;
+      }
+      .register-form-heading {
+        margin-top: 10px;
+      }
+      .info {
+        margin: 0px 0px;
+      }
+      .have-an-account {
+        display: inline-block;
+        margin-bottom: 40px;
+      }
+    }
+  
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

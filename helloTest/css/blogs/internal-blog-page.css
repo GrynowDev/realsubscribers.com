@@ -1,0 +1,224 @@
+
+
+body {
+    font-family: 'Exo', sans-serif !important;
+}
+
+#toc_container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: auto;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+}
+ul.sandy-ul-list, ol.sandy-ul-list { margin-left: 0px; padding-left: 15px; }
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+p { 
+    color: #656565; 
+    text-align: justify;
+    font-size: 17px;
+    line-height: 32px;
+}
+p > i {
+    color: #656565;
+    font-size: 17px;
+}
+
+ol li{
+    color: #656565; 
+    text-align: justify;
+    font-size: 17px;
+    line-height: 32px;
+    margin-bottom: 10px;
+}
+
+.blog-content ul li {
+    margin-bottom: 7px;
+    color: #656565;
+    font-size: 17px;
+}
+.blog-content .btn-info {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    padding: 0.9vw 2vw 0.96vw 2vw;
+    border-radius: 100px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.rs-blog h1 {
+    margin-top: 95px !important;
+    font-weight: 600;
+    color: rgb(73, 73, 73) !important;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+.rs-blog h2 {
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 600;
+    color: rgb(73, 73, 73) !important;
+}
+.rs-blog h3 {
+    font-weight: 600;
+    font-size: 21px;
+    color: rgb(73, 73, 73);
+}
+.rs-blog h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(88, 88, 88);;
+}
+
+.blog-common-btn .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    border-color: inherit;
+    padding: 0.8vw 2vw 0.9vw 2vw;
+    border-radius: 100px;
+    font-weight: 700;
+    margin-top: 1.4vw;
+    margin-right: 0.5vw;
+  }
+  .blog-common-btn .btn-info {
+    background: -moz-linear-gradient(
+      45deg,
+      #f09433 0%,
+      #e6683c 25%,
+      #dc2743 50%,
+      #cc2366 75%,
+      #bc1888 100%
+    );
+    background: -webkit-linear-gradient(
+      45deg,
+      #f09433 0%,
+      #e6683c 25%,
+      #dc2743 50%,
+      #cc2366 75%,
+      #bc1888 100%
+    );
+    background: linear-gradient(
+      45deg,
+      #f09433 0%,
+      #e6683c 25%,
+      #dc2743 50%,
+      #cc2366 75%,
+      #bc1888 100%
+    );
+    border-color: inherit;
+    padding: 0.8vw 2vw 0.9vw 2vw;
+    border-radius: 100px;
+    font-weight: 700;
+    margin-top: 1.4vw;
+  }
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .rs-blog h1 {
+        margin-top: 68px !important;
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .blog-content h2 {
+        font-size: 20px;
+        line-height: 29px;
+    }
+    .blog-content h3 {
+        font-size: 20px;
+        line-height: 29px;
+    }
+    .container-fluid {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .blog-common-btn .btn-danger {
+        padding: 1.9vw 6vw 2.2vw 6vw;
+        font-size: 4vw;
+        margin-bottom: 1.2vw;
+    }
+    .blog-common-btn .btn-info {
+        padding: 1.9vw 6vw 2.2vw 6vw;
+        font-size: 4vw;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    .rs-blog h1 {
+        margin-top: 78px !important;
+        font-size: 22px;
+        line-height: 34px;
+    }
+    .blog-content h2 {
+        font-size: 20px;
+        line-height: 29px;
+    }
+    .blog-content h3 {
+        font-size: 22px;
+        line-height: 31px;
+    }
+    .container-fluid {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .blog-common-btn .btn-danger {
+        padding: 1.9vw 6vw 2.2vw 6vw;
+        font-size: 4vw;
+        margin-bottom: 1.2vw;
+    }
+    .blog-common-btn .btn-info {
+        padding: 1.9vw 6vw 2.2vw 6vw;
+        font-size: 4vw;
+    }
+}
+@media (min-width: 414px) and (max-width: 568px) {
+    .rs-blog h1 {
+        margin-top: 85px !important;
+        font-size: 26px;
+        line-height: 38px;
+    }
+    .blog-content h2 {
+        font-size: 25px;
+        line-height: 36px;
+    }
+    .blog-content h3 {
+        font-size: 25px;
+        line-height: 36px;
+    }
+    .container-fluid {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .blog-common-btn .btn-danger {
+        padding: 2.1vw 6vw 2.2vw 6vw;
+        font-size: 4vw;
+        margin-bottom: 1.2vw;
+    }
+    .blog-common-btn .btn-info {
+        padding: 1.9vw 6vw 2.2vw 6vw;
+        font-size: 4vw;
+    }
+}
+@media (max-width: 768px) {
+    html {
+        overflow-x: hidden !important;
+    }
+    body {
+        overflow-x: hidden !important;
+    }
+    #toc_container ul {
+        padding-inline-start: initial;
+    }
+}
+
+
+
+
+

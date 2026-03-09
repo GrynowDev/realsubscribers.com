@@ -1,0 +1,52 @@
+.refund-wrapper {
+    animation: fadein 2s;
+}
+
+.refund {
+    padding: 60px 0px;
+}
+
+.refund h1 {
+    color: #133852;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.refund h2{
+    color: #133852;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.refund p {
+    color: #757575;
+    text-align: left;
+    line-height: 30px;
+}
+
+.refund h3 {
+    text-align: justify;
+    color: #133852;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.refund ul {
+    text-align: justify;
+}
+
+.refund ul li {
+    color: #757575;
+    line-height: 31px;
+    margin-bottom: 8px;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

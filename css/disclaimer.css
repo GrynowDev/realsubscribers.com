@@ -1,0 +1,25 @@
+.disclaimer-wrapper {
+    animation: fadein 2s;
+}
+    .disclaimer {
+        padding: 60px 0px;
+    }
+    .disclaimer h1 {
+        color: #133852;
+        margin-bottom: 20px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .disclaimer p {
+        color: #757575;
+        text-align: justify;
+        line-height: 31px;
+    } 
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

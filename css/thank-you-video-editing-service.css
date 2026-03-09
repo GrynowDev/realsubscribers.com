@@ -1,0 +1,26 @@
+#right-tick {
+    stroke-dasharray: 180;
+    stroke-dashoffset: 180;
+    stroke-width: 20;
+    stroke: green;
+    animation: drawTick 2s infinite ease;
+    fill: none;
+  }
+
+.text-responsive {
+    font-size: calc(100% + 1vw + 1vh);
+  }
+
+.btn-primary {
+    background-color: #153752 !important;
+    border: #153752;
+}
+
+.theme-color {
+    color: #153752;
+}
+  @keyframes drawTick {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }

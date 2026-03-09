@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Contact Form</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .col-12 {
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+            margin: 30px
+        }
+
+        .row {
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px
+        }
+
+        .col-2 {
+            -ms-flex: 0 0 16.666667%;
+            flex: 0 0 16.666667%;
+            max-width: 16.666667%
+        }
+
+        .col-3 {
+            -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+            max-width: 25%
+        }
+
+        .col-4 {
+            -ms-flex: 0 0 33.333333%;
+            flex: 0 0 33.333333%;
+            max-width: 33.333333%
+        }
+
+        .title {
+            font-weight: 600;
+        }
+
+        .title-value {
+            color: #aaa;
+        }
+
+        .form {
+            width: 100%;
+
+        }
+
+        .col-5 {
+            -ms-flex: 0 0 41.666667%;
+            flex: 0 0 41.666667%;
+            max-width: 41.666667%
+        }
+
+        .form-control,
+        .form-control-textarea, .select-form-control {
+            width: 100% !important;
+            height: 30px;
+            border: 1px solid #bbb;
+            border-radius: 5px;
+        }
+
+        .form-control-textarea {
+            height: 45px !important;
+        }
+
+        .col-6 {
+            -ms-flex: 0 0 46.5%;
+            flex: 0 0 46.5%;
+            max-width: 46.5%
+        }
+
+        .pl-1 {
+            padding-left: 15px;
+        }
+
+        .pl-2 {
+            padding-left: 20px;
+        }
+
+        .mb-3 {
+            margin-bottom: 30px;
+        }
+
+        .text-right {
+            text-align: right !important;
+        }
+
+        .btn {
+            display: inline-block;
+            font-weight: 400;
+            color: #212529;
+            text-align: center;
+            vertical-align: middle;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            background-color: transparent;
+            border: 1px solid transparent;
+            padding: 10px 24px;
+            font-size: 1rem;
+            line-height: 1.5;
+            border-radius: .25rem;
+            transition: color .15s ease-in-out,
+                background-color .15s ease-in-out,
+                border-color .15s ease-in-out,
+                box-shadow .15s ease-in-out
+        }
+
+        .btn:hover {
+            color: #212529;
+            text-decoration: none
+        }
+
+        .btn.focus,
+        .btn:focus {
+            outline: 0;
+            box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25)
+        }
+
+        .btn.disabled,
+        .btn:disabled {
+            opacity: .65
+        }
+
+        a.btn.disabled,
+        fieldset:disabled a.btn {
+            pointer-events: none
+        }
+
+        .btn-purple {
+            color: #fff;
+            background-color: #435fac;
+            border-color: #435fac;
+        }
+
+        .btn-purple:hover {
+            color: #fff;
+            background-color: #4c66ac;
+            border-color: #4c66ac;
+        }
+
+        .select-form-control {
+            height: 35px !important;
+        }
+
+        .col-8 {
+            -ms-flex: 0 0 70.666667%;
+            flex: 0 0 70.666667%;
+            max-width: 70.666667%
+        }
+
+        .col-7 {
+            -ms-flex: 0 0 58.333333%;
+            flex: 0 0 58.333333%;
+            max-width: 58.333333%
+        }
+    </style>
+</head>
+
+<body>
+    <form class="form">
+        <div class="col-12">
+            <div class="row">
+                <div class="col-3">
+                    <p class="title">First Name</p>
+                    <span class="title-value">Dianne</span>
+                </div>
+                <div class="col-3">
+                    <p class="title">Last Name</p>
+                    <span class="title-value">Russell</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <p class="title">Accunt Owner</p>
+                    <span class="title-value">Kandi</span>
+                </div>
+                <div class="col-3">
+                    <p class="title">Contact Owner</p>
+                    <span class="title-value">DianneRussell</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <p class="title">Email ID</p>
+                    <span class="title-value">TWebb@ebay.com</span>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="col-5">
+            <p class="title">LinkedIn Profile</p>
+            <input type="text" class="form-control">
+        </div>
+        <div class="col-5">
+            <div class="row">
+                <div class="col-6 pl-2">
+                    <p class="title">Title</p>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="col-6 pl-2">
+                    <p class="title">Contact Seiority</p>
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+        </div>
+
+        <div class="col-5 mb-3">
+            <div class="row">
+                <div class="col-6 pl-2">
+                    <p class="title">Personal Contact</p>
+                    <div class="row">
+                        <div class="col-2 pl-1">
+                            <select class="select-form-control">
+                                <option value="">+1</option>
+                                <option value="">+91</option>
+                            </select>
+                        </div>
+                        <div class="col-8 pl-2">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 pl-2">
+                    <p class="title">Work Contact</p>
+                    <div class="row">
+                        <div class="col-2 pl-1">
+                            <select class="select-form-control">
+                                <option value="">+1</option>
+                                <option value="">+91</option>
+                            </select>
+                        </div>
+                        <div class="col-8 pl-2">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-5">
+            <p class="title">Street Address</p>
+            <input type="text" class="form-control-textarea">
+        </div>
+        <div class="col-5">
+            <div class="row">
+                <div class="col-6 pl-2">
+                    <p class="title">City</p>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="col-6 pl-2">
+                    <p class="title">State</p>
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+        </div>
+        <div class="col-5 mb-3">
+            <div class="row">
+                <div class="col-6 pl-2">
+                    <p class="title">Country</p>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="col-6 pl-2">
+                    <p class="title">ZIP Code</p>
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+        </div>
+        <hr class="mb-3" />
+        <div class="col-5 text-right">
+            <button class="btn btn-purple">Add</button>
+        </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,624 @@
+/* banner */
+main {
+    background: url('../assets/youtube-consultation-sessions/yt-consul-session-banner.webp') no-repeat;
+    height: 560px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin-top: 89px;
+}
+main .main-caption {
+    position: absolute;
+    top: 33%;
+    left: 47%;
+    right: 10%;
+}
+main .main-caption h1 {
+    font-size: 33px;
+    color: #fff;
+    padding: 25px 57px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 4px solid #fff;
+    line-height: 48px;
+}
+.banner-border {
+    padding: 11px 0px;
+    margin-top: -23px;
+}
+.banner-border-one {
+    background-color: #153752;
+    float: left;
+    padding: 12px 0px;
+    width: 30%;
+}
+.banner-border-two {
+    background-color: #a3dcef;
+    width: 40%;
+    float: left;
+    padding: 12px 0px;
+}
+.banner-border-three {
+    background-color: #153752;
+    width: 30%;
+    float: left;
+    padding: 12px 0px;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    main {
+        background: url('../assets/youtube-consultation-sessions/yt-consul-session-banner-320.webp') no-repeat;
+        margin-top: 0px;
+    }
+    main .main-caption {
+        position: absolute;
+        top: 64%;
+        left: 13px;
+        right: 13px;
+    }
+    main .main-caption h1 {
+        font-size: 20px;
+        padding: 10px 10px;
+        line-height: 28px;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    main {
+        background: url('../assets/youtube-consultation-sessions/yt-consul-session-banner-375.webp') no-repeat;
+        margin-top: 0px;
+    }
+    main .main-caption {
+        position: absolute;
+        top: 69%;
+        left: 13px;
+        right: 13px;
+    }
+    main .main-caption h1 {
+        font-size: 20px;
+        padding: 10px 10px;
+        line-height: 28px;
+    }
+}
+@media (min-width: 414px) and (max-width: 568px) {
+    main {
+        background: url('../assets/youtube-consultation-sessions/yt-consul-session-banner-414.webp') no-repeat;
+        margin-top: 0px;
+    }
+    main .main-caption {
+        position: absolute;
+        top: 71%;
+        left: 13px;
+        right: 13px;
+    }
+    main .main-caption h1 {
+        font-size: 20px;
+        padding: 10px 10px;
+        line-height: 28px;
+    }
+}
+/* //banner */
+
+/* main text */
+.main-text {
+    padding: 50px 0px;
+}
+.main-text p {
+    padding: 70px 28px;
+    font-size: 17px;
+}
+.main-text .main-text-grid {
+    background-color: #395173; 
+    border-radius: 10px; 
+    margin: 50px 0px 45px -100px;
+}
+.main-text .main-text-grid p {
+    color: #fff;
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 600;
+}
+.main-text .btn-info {
+    background-color: #c82333;
+    border-color: #c82333;
+    padding: 12px 23px 15px 23px;
+    font-weight: 600;
+    border-radius: 100px;
+}
+.main-text .btn-info:hover {
+    background-color: #ad1424;
+    color: #fff;
+    border-color: #ad1424;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .main-text .main-text-grid {
+        margin: 0px;
+        margin-top: 10px;
+    }
+    .main-text p {
+        padding: 28px 10px;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    .main-text .main-text-grid {
+        margin: 0px;
+        margin-top: 10px;
+    }
+    .main-text p {
+        padding: 28px 10px;
+    }
+}
+@media (min-width: 414px) and (max-width: 568px) {
+    .main-text .main-text-grid {
+        margin: 0px;
+        margin-top: 10px;
+    }
+    .main-text p {
+        padding: 28px 10px;
+    }
+}
+/* main text */
+
+/* mastery-course */
+.mastery-course {
+    padding: 60px 0px;
+}
+.mastery-course h2 {
+    border-top: 1px solid rgb(192, 185, 185);
+    border-bottom: 1px solid rgb(192, 185, 185);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0px;
+    font-size: 25px;
+    line-height: 37px;
+}
+.mastery-course .mastery-course-box {
+    padding: 20px 40px;
+    border: 1px solid #b5b5b5;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.mastery-course .mastery-course-box h3 {
+    color: #bd2130;
+    font-weight: 700;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+.blue-color { color: #395173 !important; }
+.mastery-course .mastery-course-box .btn-info {
+    width: 300px;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 15px 22px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    background-color: #395173;
+    border-color: #395173;
+}
+.mastery-course .mastery-course-box p {
+    color: #3c516c;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 0px 24px;
+}
+.mastery-course .btn-primary {
+    background-color: #c82333;
+    border-color: #c82333;
+    padding: 12px 23px 15px 23px;
+    font-weight: 600;
+    border-radius: 100px;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .mastery-course {
+        padding: 34px 0px;
+    }
+    .mastery-course h2 {
+        padding: 15px 0px;
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .mastery-course .mastery-course-box {
+        padding: 20px 2px;
+    }
+    .mastery-course .mastery-course-box .btn-danger {
+        width: 243px;
+        margin-bottom: 18px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .mastery-course .mastery-course-box .btn-info {
+        width: 243px;
+        margin-bottom: 18px;
+        font-size: 13px;
+        font-weight: 700;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    .mastery-course {
+        padding: 34px 0px;
+    }
+    .mastery-course h2 {
+        padding: 15px 0px;
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .mastery-course .mastery-course-box {
+        padding: 20px 2px;
+    }
+    .mastery-course .mastery-course-box .btn-danger {
+        width: 245px;
+        margin-bottom: 18px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .mastery-course .mastery-course-box .btn-info {
+        width: 245px;
+        margin-bottom: 18px;
+        font-size: 13px;
+        font-weight: 700;
+    }
+}
+@media (min-width: 414px) and (max-width: 568px) {
+    .mastery-course {
+        padding: 34px 0px;
+    }
+    .mastery-course h2 {
+        padding: 15px 0px;
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .mastery-course .mastery-course-box {
+        padding: 20px 2px;
+    }
+    .mastery-course .mastery-course-box .btn-danger {
+        width: 270px;
+        margin-bottom: 18px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .mastery-course .mastery-course-box .btn-info {
+        width: 270px;
+        margin-bottom: 18px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+}
+/* //mastery-course */
+
+/* main-link */
+.main-link {
+    background-color: #f0f9fe;
+    padding: 60px 0px;
+}
+.main-link .main-link-box {
+    background-color: #ffff;
+    padding: 14px 14px;
+    box-shadow: 0px 1px 6px 1px rgb(0,0,0,0.2);
+}
+.main-link .main-link-box img {
+    border: 1px solid #0b2f6d;
+}
+.main-link .main-link-box .btn-danger {
+    width: 100%;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 0px;
+}
+.main-link .main-link-box .btn-info {
+    width: 100%;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #395173;
+    border-color: #395173;
+    border-radius: 0px;
+}
+.main-link .main-link-box .btn-primary {
+    width: 100%;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    border-radius: 0px;
+    height: 63px;
+    padding-top: 18px;
+}
+.main-link .main-link-box .btn-warning {
+    width: 100%;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #395173;
+    border-color: #395173;
+    border-radius: 0px;
+    height: 63px;
+    padding-top: 18px;
+    color: #fff;
+}
+.main-link .btn-default {
+    background-color: #c82333;
+    border-color: #c82333;
+    padding: 12px 23px 15px 23px;
+    font-weight: 600;
+    border-radius: 100px;
+    color: #fff;
+}
+.main-link .btn-default:hover {
+    background-color: #ad1424;
+    color: #fff;
+    border-color: #ad1424;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .main-link .main-link-box {
+        padding: 14px 14px;
+    }
+    .main-link .col-md-3, .col-lg-3 {
+        margin-bottom: 28px;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    .main-link .main-link-box {
+        padding: 14px 14px;
+    }
+    .main-link .col-md-3, .col-lg-3 {
+        margin-bottom: 28px;
+    }
+}
+@media (min-width: 414px) and (max-width: 568px) {
+    .main-link .main-link-box {
+        padding: 14px 14px;
+    }
+    .main-link .col-md-3, .col-lg-3 {
+        margin-bottom: 28px;
+    }
+    .main-link .main-link-box img {
+        width: 100%;
+    }
+}
+/* //main-link */
+
+/* why-rs */
+.why-rs {
+    padding: 50px 0px;
+}
+.why-rs h2 {
+    font-size: 25px;
+    font-weight: 600;
+    border-top: 1px solid rgb(192, 185, 185);
+    border-bottom: 1px solid rgb(192, 185, 185);
+    padding: 26px 0px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 38px;
+    color: #504f4f;
+}
+.why-rs .why-rs-grid {
+    text-align: center;
+}
+.why-rs .why-rs-grid img {
+    border-radius: 100px;
+    margin-bottom: 15px;
+}
+.why-rs .why-rs-grid h3 {
+    color: #3c516c;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.why-rs .why-rs-grid p {
+    color: #3c516c;
+    font-weight: 500;
+    margin-top: 16px;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .why-rs h2 {
+        font-size: 20px;
+        line-height: 30px;
+        padding: 15px 0px;
+    }
+    .why-rs .mt-5 {
+        margin-top: 15px !important;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    .why-rs h2 {
+        font-size: 20px;
+        line-height: 30px;
+        padding: 15px 0px;
+    }
+    .why-rs .mt-5 {
+        margin-top: 15px !important;
+    }
+}
+@media (min-width: 414px) and (max-width: 568px) {
+    .why-rs h2 {
+        font-size: 20px;
+        line-height: 30px;
+        padding: 15px 0px;
+    }
+    .why-rs .mt-5 {
+        margin-top: 15px !important;
+    }
+}
+/* //why-rs */
+
+
+/* training-sessions */
+.training-sessions {
+    padding: 60px 0px;
+    background-color: #f0f9fe;
+}
+.training-sessions h2 {
+    font-size: 25px;
+    line-height: 37px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #395173;
+    border-top: 1px solid #395173;
+    border-bottom: 1px solid #395173;
+    padding: 15px 0px;
+}
+.training-sessions h3 {
+    padding: 30px 0px;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #395173;
+    border-top: 1px solid #395173;
+    border-bottom: 1px solid #395173;
+    margin-top: 30px;
+}
+.training-sessions p {
+    background-color: #395173;
+    padding: 30px 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 40px 0px 30px 0px;
+}
+.training-sessions .training-sessions-content {
+    padding: 57px 0px;
+}
+.training-sessions .training-sessions-content h3 {
+    color: #da7c7b;
+    font-weight: 600;
+    border-top: inherit;
+    border-bottom: inherit;
+    padding: 0px;
+    padding: 0;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.training-sessions .training-sessions-content p {
+    color: #3b516d;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    background-color: inherit;
+}
+.training-sessions .btn-primary {
+    background-color: #c82333;
+    border-color: #c82333;
+    padding: 12px 23px 15px 23px;
+    font-weight: 600;
+    border-radius: 100px;
+}
+.training-sessions .btn-primary:hover {
+    background-color: #ad1424;
+    color: #fff;
+    border-color: #ad1424;
+}
+.training-sessions .col-md-4, .col-lg-4 {
+    margin-bottom: 30px;
+} 
+.training-sessions .col-md-8, .col-lg-8 {
+    margin-bottom: 30px;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .training-sessions {
+        padding: 35px 0px;
+    }
+    .training-sessions h2 {
+        font-size: 20px;
+        line-height: 29px;
+    }
+    .training-sessions h3 {
+        padding: 15px 0px;
+        font-size: 20px;
+        line-height: 29px;
+    }
+    .training-sessions .mt-5 {
+        margin-top: 15px !important;
+    }
+    .training-sessions .training-sessions-content {
+        padding: 0px 0px;
+    }
+    .training-sessions .training-sessions-content h3 {
+        margin-bottom: 15px;
+    }
+    .training-sessions .col-md-8, .col-lg-8 {
+        margin-bottom: 15px;
+    }
+    .training-sessions p {
+        padding: 30px 15px;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    .training-sessions {
+        padding: 35px 0px;
+    }
+    .training-sessions h2 {
+        font-size: 22px;
+        line-height: 29px;
+    }
+    .training-sessions h3 {
+        padding: 15px 0px;
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .training-sessions .mt-5 {
+        margin-top: 15px !important;
+    }
+    .training-sessions .training-sessions-content {
+        padding: 0px 0px;
+    }
+    .training-sessions .training-sessions-content h3 {
+        margin-bottom: 15px;
+    }
+    .training-sessions .col-md-8, .col-lg-8 {
+        margin-bottom: 15px;
+    }
+    .training-sessions p {
+        padding: 30px 15px;
+    }
+}
+@media (min-width: 414px) and (max-width: 568px) {
+    .training-sessions {
+        padding: 35px 0px;
+    }
+    .training-sessions h2 {
+        font-size: 22px;
+        line-height: 29px;
+    }
+    .training-sessions h3 {
+        padding: 15px 0px;
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .training-sessions .mt-5 {
+        margin-top: 15px !important;
+    }
+    .training-sessions .training-sessions-content {
+        padding: 0px 0px;
+    }
+    .training-sessions .training-sessions-content h3 {
+        margin-bottom: 15px;
+    }
+    .training-sessions .col-md-8, .col-lg-8 {
+        margin-bottom: 15px;
+    }
+    .training-sessions p {
+        padding: 30px 15px;
+    }
+}
+/* //training-sessions */
+
+
+@media (max-width: 674px) {
+    .container-fluid {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+
+
+
+
+
